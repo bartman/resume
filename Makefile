@@ -73,7 +73,9 @@ upgrade_13x_140_style?=$(xsl_base)/misc/13x-140.xsl
 css = resume.css
 
 xslt_params = -PARAM css.href "${src}/${css}" \
-	      -PARAM skills.format bullet
+	      -PARAM skills.format bullet \
+	      -PARAM interest.description.format single-line \
+	      -PARAM header.format centered
 
 #------------------------------------------------------------------------------
 # Processing software
