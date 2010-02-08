@@ -1,0 +1,36 @@
+#!/bin/sh
+#
+# Assuming that you've put your repo in ~/public_html/resume/
+#
+# Put this file in .git/hooks/post-update
+#
+# Then from ~/public_html/resume run:
+#   git config core.worktree `pwd`/build/
+#   git config build.destination = `pwd`/index.html
+#
+# Pushing to any branch will build a resume, but pushing to master will also deploy it.
+# 
+
+set -e
+
+echo >&2 "### $0 $@"
+
+worktree=$(git config core.worktree)
+destination=$(git config build.destination)
+
+echo >&2 "### worktree=$worktree destination=$destination"
+[ -z "$worktree" -o -z "$destination" ] && exit 1
+
+for ref in $@ ; do
+        echo >&2 "### Setting up work space"
+        mkdir -p $worktree
+        echo >&2 "### Checking out"
+        git checkout -f
+        echo >&2 "### Building"
+        make -C $worktree clean html
+        if [ "$ref" = "refs/heads/master" ] ; then
+                echo >&2 "### Deploying"
+                cp -b "$worktree/resume.html" "$destination"
+        fi
+        echo >&2 "### DONE"
+done
