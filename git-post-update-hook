@@ -7,6 +7,7 @@
 # Then from ~/public_html/resume run:
 #   git config core.worktree `pwd`/build/
 #   git config build.destination = `pwd`/index.html
+#   git config receive.denycurrentbranch ignore
 #
 # Pushing to any branch will build a resume, but pushing to master will also deploy it.
 # 
