@@ -63,86 +63,155 @@ This is a resume of Bart Trojanowski
       <surname>Trojanowski</surname>
     </name>
     <address>
-      <street>50 Trump Ave.</street>
+      <street>247 Scout St.</street>
       <city>Ottawa</city>
       <state>ON</state>
-      <zip>K2C 4A4</zip>
+      <zip>K2C 4E6</zip>
       <country>Canada</country>
     </address>
     <contact>
       <phone>613/282-7102</phone>
       <email>bart@jukie.net</email>
-      <web>http://www.jukie.net/</web>
+      <web><link>http://www.jukie.net/</link></web>
     </contact>
   </header>
 
   <objective>
-    <para>I seek direct consulting clients who require custom software development. Services are provided for clients worldwide. I strive to achieve quality, accuracy, performance and maintainability in the products I write.
+    <para>
+      I seek challenging software design and development projects. I strive to
+      achieve quality, accuracy, performance and maintainability in the
+      products I write.
     </para>
   </objective>
 
     <skillarea>
       <title>Skills</title>
       <skillset>
-	<title>General Experience</title>
-	  <skill>Fluent in C, C++, Java, JavaScript, Perl, PHP, Intel and Motorola assembly, SmallTalk, SQL, Pascal, and BASIC.</skill>
-	  <skill>Experienced in many operating systems such as: Linux, Solaris, FreeBSD, Windows 2k/NT/98, DOS, MacOS.</skill>
-	  <skill>Very strong problem solving skills.</skill>
-	  <skill>Proficient in multi-threaded and real-time application design and development.</skill>
-	  <skill>Designed various cross-platform libraries.</skill>
-	  <skill>Theoretical and applied understanding of vast network systems, protocols and concepts.</skill>
-	  <skill>Performed development, testing, benchmarking, and debugging many networking and multi-threaded/multi-processor application using Linux tools.</skill>
-	  <skill>Exposure in debugging and optimizing gcc and gdb, of the GNU tool chain, for a custom built ARC processor.</skill>
-	  <skill>Familiar with X application development using GTK+ libraries.</skill>
-	  <skill>Working knowledge of Microsoft Access, DBase IV, and mySQL at both environment and programming levels.</skill>
-	  <skill>Familiarity with countless desktop publishing, productivity and scientific software for various platforms.</skill>
+        <title>General Experience</title>
+        <skill>Fluent in C, C++ and i386/x86-64 assembly, and experienced in Perl, Lua, Ruby, Java, JavaScript, PHP, SmallTalk, SQL, Pascal, and BASIC.</skill>
+        <skill>Experienced in many operating systems such as: Linux, Solaris, *BSD, Windows 2k/NT/98, DOS, MacOS.</skill>
+        <skill>Very strong problem solving skills.</skill>
+        <skill>Proficient in multi-threaded and real-time application design and development.</skill>
+        <skill>Designed various cross-platform drivers, libraries, and applications.</skill>
+        <skill>Performed ports of several windows applications and drivers to Linux.</skill>
+        <skill>Worked with certificates, and PKI systems; and with card readers at a APDU and framework levels.</skill>
+        <skill>Theoretical and applied understanding of vast network systems, protocols and concepts.</skill>
+        <skill>Performed development, testing, benchmarking, profiling , and debugging many networking and multi-threaded/multi-processor application using Linux tools.</skill>
+        <skill>Exposure in debugging and optimizing gcc and gdb, of the GNU tool chain, for a custom built ARC processor.</skill>
+        <skill>Familiar with X application development using GTK+ libraries.</skill>
+        <skill>Working knowledge of Microsoft Access, DBase IV, and mySQL at both environment and programming levels.</skill>
+        <skill>Familiarity with countless desktop publishing, productivity and scientific software for various platforms.</skill>
       </skillset>
       <skillset>
-	<title>Networking</title>
-	  <skill>Berkeley sockets (UNIX networking)</skill>
-          <skill>Winsock 1/2 (Windows networking)</skill>
-	  <skill>Network security (firewalls, proxy servers, etc.)</skill>
-	  <skill>TCP, UDP, ICMP, Multicast internals</skill>
-	  <skill>Ethernet, IP and PPP connectivity</skill>
-	  <skill>Routing (mrouted, RIP, BGP) and switching</skill>
-	  <skill>Low-level FTP, HTTP, Telnet, POP3, SMTP, SAMBA</skill>
-	  <skill>Development of IPSec and ISAKMP/IKE protocols</skill>
-	  <skill>SSH, SSL, NFS</skill>
-	  <skill>Internet/Intranet</skill>
-	  <skill>DVB and MPEG standards</skill>
+        <title>Networking</title>
+        <skill>Berkeley sockets (UNIX networking)</skill>
+        <skill>Linux kernel internals</skill>
+        <skill>Network security (firewalls, deep packet inspection, proxy servers, etc.)</skill>
+        <skill>TCP, UDP, ICMP, Multicast internals</skill>
+        <skill>Ethernet, VLAN/QinQ, IP and PPP connectivity</skill>
+        <skill>PPPoE, PPPoA, L2TP ISP infrastructure</skill>
+        <skill>Routing (mrouted, RIP, BGP) and switching</skill>
+        <skill>Low-level FTP, HTTP, Telnet, POP3, SMTP, SAMBA</skill>
+        <skill>Development of IPSec and ISAKMP/IKE protocols</skill>
+        <skill>SSH, SSL, NFS</skill>
+        <skill>Internet/Intranet</skill>
+        <skill>DVB and MPEG standards</skill>
       </skillset>
       <skillset>
-	<title>Kernel/Embedded</title>
-	  <skill>Extensive knowledge of Linux kernel internals; worked on various optimization projects for the Linux kernel.</skill>
-	  <skill>In depth understanding of Linux boot sequence; used to design custom Linux distribution for use in embedded applications.</skill>
-	  <skill>Expert in debugging, modifying, porting, and optimization of Linux kernel sources.</skill>
-	  <skill>Experienced in embedded development under Linux and pSOS operating systems.</skill>
-	  <skill>Design and implementation knowledge for real-time systems.</skill>
-          <skill>Understanding of Solaris and NT driver development.</skill>
+        <title>Kernel/Embedded</title>
+        <skill>Extensive knowledge of Linux kernel internals; worked on various optimization projects for the Linux kernel.</skill>
+        <skill>Exposure to various hardware bus architectures (PCI, CompactPCI, PC104, etc) and processors (Intel x86, AMD Opteron, ARM9/Xscale/ARM11, ARC, MIPS, PPC, TI DSP, etc).</skill>
+        <skill>Good understanding of Linux boot sequence; designed custom Linux distribution for use in embedded applications.</skill>
+        <skill>Extensive experience working with x86 BIOS; worked on preserving BIOS real-mode functionality for Linux.</skill>
+        <skill>Enthusiastically learning as much as one can about the Android cell platform.</skill>
+        <skill>Expert in debugging, modifying, porting, and optimization of Linux kernel sources.</skill>
+        <skill>Experienced in big- and small-embedded device development under Linux; also worked on pSOS, vxWorks, and built-in-house operating systems.</skill>
+        <skill>Design and implementation knowledge for real-time systems.</skill>
+        <skill>Understanding of Solaris and NT driver development.</skill>
       </skillset>
     </skillarea>
 
   <history>
     <job>
+      <jobtitle>Consultant Contract Developer</jobtitle>
+      <employer>Jukie Networks Inc.</employer>
+      <period>
+        <from> <date> <month>June</month> <year>2004</year> </date> </from>
+        <to> <present/> </to>
+      </period>
+      <description>
+        <para>runs a successful consulting company specialized in Linux software design and development; has been involved in designing and the implementation of a distributed file system, development and porting of several PCI device drivers, and continued development of a Linux IPSec stack; has helped his clients draft the architecture for embedded platforms, design cross-platform driver and system software, and debug various kernel and real-time issues; has been involved with system bootstrap and x86 BIOS, the X.org system, Linux network internals, deep packet inspection, PPPoE/PPPoA server software, and security software; has contributed patches to open source software, and given lectures on the Linux kernel and Git revision control tool; as part of ongoing efforts to keep current, is passionately following various open source projects such as the Google Android.
+        </para>
+      </description>
+      <projects>
+        <project>
+          <emphasis>Third Brigade / Trend Micro, Ottawa</emphasis>;
+          ported Windows based deep-packet-inspection firewall driver to Linux;
+          designed a driver portability layer for supporting multiple OSes (Linux, Windows, Solaris, AIX, HP/UX);
+          maintained code for various versions of Linux;
+          added features, fixed bugs, debugged customer escalations, etc.
+        </project>
+        <project>
+          <emphasis>FinePoint Technologies, New York</emphasis>;
+          porting an existing Linux based PPPoE embedded system to new hardware;
+          profiling linux PPPoE drivers and server software to fix SMP locking bottlenecks;
+          adding new features, like IPv6 support.
+        </project>
+        <project>
+          <emphasis>International Datacasting Corp, Ottawa</emphasis>;
+          setting up an embedded system for a satellite based signal multiplexer;
+          porting satellite receiver/transmitter drivers to a newer kernel;
+          helping fix various kernel issues with other teams.
+        </project>
+        <project>
+          <emphasis>Safenet, Ottawa</emphasis>;
+          called in to provide analysis of kernel crashes;
+          crash analysis, researching workarounds, testing.
+        </project>
+        <project>
+          <emphasis>Symbio Technologies, New York</emphasis>
+          design and implementation of small embedded system to act as a preboot environment, which obtained credentials from the user before unlocking the hard disk and booting the main OS;
+          product was based on Linux using an ATA device with TRUST extensions;
+          I owned the embedded system including custom drivers to talk to the SATA connected device.
+        </project>
+        <project>
+          <emphasis>Symbio Technologies, New York</emphasis>
+          AMD Geode based single board computer;
+          I contributed by debugging and fixing bugs in the X server and drivers.
+        </project>
+        <project>
+          <emphasis>Xelerance Corp, Ottawa</emphasis>
+          Linux driver for crypto hardware acceleration board from HiFn;
+          extending functionality of OpenSwan IP/Sec stack on Linux;
+          debugging NetBSD support for HiFn Open Crypto Framework (OCF) drivers;
+          adding hardware acceleration support via OCF drivers to Linux.
+        </project>
+      </projects>
+    </job>
+
+    <job>
+      <jobtitle>Software Developer</jobtitle>
+      <employer>FortiNet</employer>
+      <period>
+        <from> <date> <month>March</month> <year>2004</year> </date> </from>
+        <to> <date> <month>June</month> <year>2004</year> </date> </to>
+      </period>
+      <description>
+        <para>worked on debugging and extending the functionality of the FortiLog product, which was designed to collect events from other FortiNet units and generate reports; scope extended to developing software to handle various RAID configurations, detecting and acting on faults, and helping integrate code into several existing products.
+        </para>
+      </description>
+    </job>
+
+    <job>
       <jobtitle>Software Developer</jobtitle>
       <employer>SOMA Networks</employer>
       <period>
-	<from>
-	  <date>
-	    <month>November</month>
-	    <year>2001</year>
-	  </date>
-	</from>
-	<to>
-	  <date>
-	    <month>Present</month>
-	    <year></year>
-	  </date>
-	</to>
+        <from> <date> <month>September</month> <year>2001</year> </date> </from>
+        <to> <date> <month>March</month> <year>2004</year> </date> </to>
       </period>
       <description>
-	<para>designed, implemented, and responsible for a set of drivers handling host to radio communication and configuration, via PCI bus.  the target platforms of said drivers are arm-linux and x86-linux.
-	</para>
+        <para>designed, implemented, and responsible for a set of drivers handling host to radio communication and configuration, via PCI bus.  the target platforms of said drivers are arm-linux and x86-linux.
+        </para>
       </description>
     </job>
 
@@ -150,22 +219,12 @@ This is a resume of Bart Trojanowski
       <jobtitle>Software Developer</jobtitle>
       <employer>Chrysalis-ITS</employer>
       <period>
-	<from>
-	  <date>
-	    <month>January</month>
-	    <year>2000</year>
-	  </date>
-	</from>
-	<to>
-	  <date>
-	    <month>August</month>
-	    <year>2001</year>
-	  </date>
-	</to>
+        <from> <date> <month>January</month> <year>2000</year> </date> </from>
+        <to> <date> <month>August</month> <year>2001</year> </date> </to>
       </period>
       <description>
-	<para>designed, implemented, and responsible for maintenance of a cross platform (Linux/FreeBSD) driver and debug tools for a PCI device; helped in porting it to WinNT and Solaris; designed and implemented an automated testing environment for the PCI device; involved in porting a kernel IPSec implementation to use a hardware accelerator; written various kernel modules to exercise the Chrysalis-ITS hardware; also, worked on various internal tools used by the firmware developers; provided Linux tutelage to other project developers; as a background task maintained a project CVS/NFS server for various developers. 
-	</para>
+        <para>designed, implemented, and responsible for maintenance of a cross platform (Linux/FreeBSD) driver and debug tools for a PCI device; helped in porting it to WinNT and Solaris; designed and implemented an automated testing environment for the PCI device; involved in porting a kernel IPSec implementation to use a hardware accelerator; written various kernel modules to exercise the Chrysalis-ITS hardware; also, worked on various internal tools used by the firmware developers; provided Linux tutelage to other project developers; as a background task maintained a project CVS/NFS server for various developers. 
+        </para>
       </description>
     </job>
 
@@ -173,23 +232,13 @@ This is a resume of Bart Trojanowski
       <jobtitle>Software Specialist</jobtitle>
       <employer>International Datacasting Corporation</employer>
       <period>
-	<from>
-	  <date>
-	    <month>May</month>
-	    <year>1998</year>
-	  </date>
-	</from>
-	<to>
-	  <date>
-	    <month>January</month>
-	    <year>2000</year>
-	  </date>
-	</to>
+        <from> <date> <month>May</month> <year>1998</year> </date> </from>
+        <to> <date> <month>January</month> <year>2000</year> </date> </to>
       </period>
       <description>
-	<para>provide support and maintain the Java 'Superflex Status &amp; Control' application (as described below); researched the needed tools and support software, in part designed, and developed the majority of the firmware to drive the next generation Superflex product; firmware is written in C++, taking advantage of POSIX threads, and runs on Linux; was in charge of reducing a commercial Linux install down to 8 MB to fit on a flash disk.
-	</para>
-	<para>extensively involved in design of the firmware and control protocol specification for the new data satellite receiver; solely responsible for research of technologies and development of the firmware; the product uses off the shelf and proprietary products that must be integrated; firmware allows for easy exchange of current hardware for other that are not yet available.
+        <para>provide support and maintain the Java 'Superflex Status &amp; Control' application (as described below); researched the needed tools and support software, in part designed, and developed the majority of the firmware to drive the next generation Superflex product; firmware is written in C++, taking advantage of POSIX threads, and runs on Linux; was in charge of reducing a commercial Linux install down to 8 MB to fit on a flash disk.
+        </para>
+        <para>extensively involved in design of the firmware and control protocol specification for the new data satellite receiver; solely responsible for research of technologies and development of the firmware; the product uses off the shelf and proprietary products that must be integrated; firmware allows for easy exchange of current hardware for other that are not yet available.
         </para>
       </description>
     </job>
@@ -198,18 +247,8 @@ This is a resume of Bart Trojanowski
       <jobtitle>Software Developer</jobtitle>
       <employer>International Datacasting Corporation</employer>
       <period>
-	<from>
-	  <date>
-	    <month>Aug</month>
-	    <year>1997</year>
-	  </date>
-	</from>
-	<to>
-	  <date>
-	    <month>April</month>
-	    <year>1998</year>
-	  </date>
-	</to>
+        <from> <date> <month>Aug</month> <year>1997</year> </date> </from>
+        <to> <date> <month>April</month> <year>1998</year> </date> </to>
       </period>
       <description>
         <para>designed and implemented a Java application GUI named 'Status &amp; Control' for the Superflex line of satellite receivers; helped in the effort of debugging pSOS-based firmware, written in C++, that was configured by the GUI; as a result became very comfortable with switching between Java and C++; aided in the debugging efforts of a QNX system control software used to remotely control receivers; maintained transmit-side modulator software; as a side project built and maintained a Linux routing &amp; gatewaying server that ran a mail spooler, a local DNS and other services.
@@ -221,24 +260,14 @@ This is a resume of Bart Trojanowski
       <jobtitle>Software Developer / Assistant Project Manager</jobtitle>
       <employer>Evergreen Wildfire Systems</employer>
       <period>
-	<from>
-	  <date>
-	    <month>September</month>
-	    <year>1996</year>
-	  </date>
-	</from>
-	<to>
-	  <date>
-	    <month>August</month>
-	    <year>1997</year>
-	  </date>
-	</to>
+        <from> <date> <month>September</month> <year>1996</year> </date> </from>
+        <to> <date> <month>August</month> <year>1997</year> </date> </to>
       </period>
       <description>
-	<para>involved in the development of Sparrow GIS software; duties range from constructing graphing and charting facilities, to user interface design and debugging code for Sparrow, a program which visually represents geographical statistics retrieved from relational databases;
-	</para>
+        <para>involved in the development of Sparrow GIS software; duties range from constructing graphing and charting facilities, to user interface design and debugging code for Sparrow, a program which visually represents geographical statistics retrieved from relational databases;
+        </para>
         <para>involved in supervising and development of many projects including "Parks Fire Web" an Intranet &amp; Internet solution to distributing public and internal forest fire information amongst its institutions;
-	</para>
+        </para>
       </description>
     </job>
 
@@ -246,22 +275,12 @@ This is a resume of Bart Trojanowski
       <jobtitle>Software Developer / Consultant</jobtitle>
       <employer>Parks Canada</employer>
       <period>
-	<from>
-	  <date>
-	    <month>May</month>
-	    <year>1995</year>
-	  </date>
-	</from>
-	<to>
-	  <date>
-	    <month>August</month>
-	    <year>1996</year>
-	  </date>
-	</to>
+        <from> <date> <month>May</month> <year>1995</year> </date> </from>
+        <to> <date> <month>August</month> <year>1996</year> </date> </to>
       </period>
       <description>
-	<para>participated in the development of the fire management system currently in use by National Parks of Canada; duties included the design a GUI to provide remote database access functions &amp; greater ease of use; after project completion involved in updating this system to current client requirements, adding functionality to the existing application;
-	</para>
+        <para>participated in the development of the fire management system currently in use by National Parks of Canada; duties included the design a GUI to provide remote database access functions &amp; greater ease of use; after project completion involved in updating this system to current client requirements, adding functionality to the existing application;
+        </para>
       </description>
     </job>
 
@@ -269,22 +288,12 @@ This is a resume of Bart Trojanowski
       <jobtitle>Software Developer/Consultant</jobtitle>
       <employer>Datacast Communications</employer>
       <period>
-	<from>
-	  <date>
-	    <month>September</month>
-	    <year>1995</year>
-	  </date>
-	</from>
-	<to>
-	  <date>
-	    <month>April</month>
-	    <year>1996</year>
-	  </date>
-	</to>
+        <from> <date> <month>September</month> <year>1995</year> </date> </from>
+        <to> <date> <month>April</month> <year>1996</year> </date> </to>
       </period>
       <description>
-	<para>while on the project entitled "Newspapers for the blind" assisted the visually challenged in setting up VBI equipment in home in order to receive electronic papers; participated in a team environment to develop a WWW server, for Smart Communities, that mimicking Yellow Pages but in electronic form;
-	</para>
+        <para>while on the project entitled "Newspapers for the blind" assisted the visually challenged in setting up VBI equipment in home in order to receive electronic papers; participated in a team environment to develop a WWW server, for Smart Communities, that mimicking Yellow Pages but in electronic form;
+        </para>
       </description>
     </job>
 
@@ -292,22 +301,12 @@ This is a resume of Bart Trojanowski
       <jobtitle>Junior Software Developer</jobtitle>
       <employer>Telesat Canada</employer>
       <period>
-	<from>
-	  <date>
-	    <month>June</month>
-	    <year>1994</year>
-	  </date>
-	</from>
-	<to>
-	  <date>
-	    <month>August</month>
-	    <year>1994</year>
-	  </date>
-	</to>
+        <from> <date> <month>June</month> <year>1994</year> </date> </from>
+        <to> <date> <month>August</month> <year>1994</year> </date> </to>
       </period>
       <description>
-	<para>high school summer Co-op; placed, at personal request; briefly introduced to networking on IBM/9000, the Virtual Machine environment and UNIX architectures; tasks involved developing database entry sheets for personnel, payroll and security data on the VM; also developed helper applications using the C programming language under UNIX;
-	</para>
+        <para>high school summer Co-op; placed, at personal request; briefly introduced to networking on IBM/9000, the Virtual Machine environment and UNIX architectures; tasks involved developing database entry sheets for personnel, payroll and security data on the VM; also developed helper applications using the C programming language under UNIX;
+        </para>
       </description>
     </job>
 
@@ -318,18 +317,18 @@ This is a resume of Bart Trojanowski
   <academics>
     <degrees>
       <degree>
-	<level>Bachelor of Science</level>
-	<subject>Computer Science with Software Option</subject>
-	<date>
-	  <month>May</month>
-	  <year>1999</year>
-	</date>
-	<institution>Carleton University</institution>
+        <level>Bachelor of Science</level>
+        <subject>Computer Science with Software Option</subject>
+        <date>
+          <month>May</month>
+          <year>1999</year>
+        </date>
+        <institution>Carleton University</institution>
         <annotation>
           <para>Five year Co-op program.  Degree awarded with <emphasis>Highest Honours</emphasis> standing. 
           </para>
           <para>Studies concentrated on: Computer Networking and Cryptography
-, Operating Systems &amp; Real-time Systems, Object Oriented Programming, Artificial Intelligence, Computer Graphics &amp; Simulations, and Database Development.
+            , Operating Systems &amp; Real-time Systems, Object Oriented Programming, Artificial Intelligence, Computer Graphics &amp; Simulations, and Database Development.
           </para>
         </annotation>
       </degree>
@@ -337,13 +336,13 @@ This is a resume of Bart Trojanowski
 
     <degrees>
       <degree>
-	<level>Ontario Academic Credits Diploma</level>
-	<subject>High School</subject>
-	<date>
-	  <month>May</month>
-	  <year>1994</year>
-	</date>
-	<institution>Sir Wilfrid Laurier Secondary School</institution>
+        <level>Ontario Academic Credits Diploma</level>
+        <subject>High School</subject>
+        <date>
+          <month>May</month>
+          <year>1994</year>
+        </date>
+        <institution>Sir Wilfrid Laurier Secondary School</institution>
         <annotation>
           <para>Diploma awarded with <emphasis>Honours</emphasis> standing.
           </para>
@@ -356,16 +355,32 @@ This is a resume of Bart Trojanowski
 
   <misc>
     <para>
+      <emphasis>Lectures and presentations</emphasis>
+    </para>
+    <para>
+      Given serveral well received lectures on Git;
+      see: <link>http://www.jukie.net/~bart/slides/git-reflections/</link>
+    </para>
+    <para>
+      Devoted participant in the Ottawa Linux Users Group;
+      presented several topics;
+      see: <link>http://www.jukie.net/~bart/slides/</link>
+    </para>
+    <para>
+      Written various HOWTOs on Linux setup tasks;
+      recent contributions archived in his blog;
+      see: <link>http://www.jukie.net/~bart/blog/</link>
+    </para>
+
+    <para>
       <emphasis>Open Source Projects</emphasis>
     </para>
-    <para>maintains window manager wmii-lua; see <link>http://github.com/bartman/wmii-lua</link>.</para>
-    <para>contributed to Debian port to AMD64 architecture (AMD Opteron chip); see <link>http://www.jukie.net/~bart/debian/amd64/</link>.</para>
-    <para>involved in redesign efforts of KLIPS (kernel part of the IPSec implementation for Linux); my involvement lies in the development of a kernel-space crypto library; see: <link>http://www.jukie.net/~bart/linux-ipsec</link>.</para>
-    <para>developed an elf signing utility which uses the GnuPG engine for digitally signing elf executables; see: <link>http://elfsign.sourceforge.net</link>.</para>
+    <para>Maintains window manager wmii-lua; see <link>http://github.com/bartman/wmii-lua</link></para>
+    <para>Contributed to Debian port to AMD64 architecture (AMD Opteron chip); see <link>http://www.jukie.net/~bart/debian/amd64/</link></para>
+    <para>Involved in redesign efforts of KLIPS (kernel part of the IPSec implementation for Linux); my involvement lies in the development of a kernel-space crypto library; see: <link>http://www.jukie.net/~bart/linux-ipsec</link></para>
+    <para>Developed an elf signing utility which uses the GnuPG engine for digitally signing elf executables; see: <link>http://elfsign.sourceforge.net</link></para>
     <para>... and much, much more; see <link>https://www.ohloh.net/accounts/bartman</link> and <link>http://github.com/bartman</link></para>
   </misc>
 
 </resume>
-<!--
-#vim: et ts=2 sw=2
--->
+<!-- vim: et ts=2 sw=2 -->
