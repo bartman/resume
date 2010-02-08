@@ -58,7 +58,9 @@ country?=us
 # Options: letter for country=us, a4 for others
 papersize?=letter
 
-xsl_base?=/usr/share/sgml/xml-resume-library/xsl
+src=$(shell pwd)
+
+xsl_base?=${src}/xml-resume-library/xsl
 #xsl_base?=http://xmlresume.sourceforge.net/xsl
 #xsl_base?=../xsl
 #xsl_base?=../src/www/xsl
@@ -69,7 +71,7 @@ fo_style?=$(xsl_base)/output/$(country)-$(papersize).xsl
 upgrade_13x_140_style?=$(xsl_base)/misc/13x-140.xsl
 
 css = resume.css
-css_arg = -PARAM css.href "$(shell pwd)/${css}"
+css_arg = -PARAM css.href "${src}/${css}"
 
 #------------------------------------------------------------------------------
 # Processing software
