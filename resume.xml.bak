@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE resume PUBLIC "-//Sean Kelly//DTD Resume 1.2.1//EN"
+          "http://xmlresume.sourceforge.net/dtd/resume.dtd">
+<!--
+
+This is a resume of Bart Trojanowski
+
+-->
+<resume>
+  <keywords>
+    <keyword>algorithm</keyword>
+    <keyword>apache</keyword>
+    <keyword>assembler</keyword>
+    <keyword>assembly</keyword>
+    <keyword>athlon</keyword>
+    <keyword>bart</keyword>
+    <keyword>c</keyword>
+    <keyword>c++</keyword>
+    <keyword>consulting</keyword>
+    <keyword>contract</keyword>
+    <keyword>contract programming</keyword>
+    <keyword>cross</keyword>
+    <keyword>cross-platform</keyword>
+    <keyword>debug</keyword>
+    <keyword>geek</keyword>
+    <keyword>ipsec</keyword>
+    <keyword>ip security</keyword>
+    <keyword>java</keyword>
+    <keyword>jukie</keyword>
+    <keyword>linux</keyword>
+    <keyword>logic</keyword>
+    <keyword>macos</keyword>
+    <keyword>multi threaded</keyword>
+    <keyword>multithreaded</keyword>
+    <keyword>MySQL</keyword>
+    <keyword>object</keyword>
+    <keyword>object-oriented</keyword>
+    <keyword>pentium</keyword>
+    <keyword>platform</keyword>
+    <keyword>porting</keyword>
+    <keyword>port</keyword>
+    <keyword>programmer</keyword>
+    <keyword>real time</keyword>
+    <keyword>real-time</keyword>
+    <keyword>resume</keyword>
+    <keyword>reverse engineering</keyword>
+    <keyword>sdk</keyword>
+    <keyword>security</keyword>
+    <keyword>Smalltalk</keyword>
+    <keyword>software development</keyword>
+    <keyword>ssh</keyword>
+    <keyword>ssl</keyword>
+    <keyword>thread</keyword>
+    <keyword>unix</keyword>
+    <keyword>unix</keyword>
+    <keyword>web</keyword>
+    <keyword>x86</keyword>
+  </keywords>
+
+  <header>
+    <name>
+      <firstname>Bart</firstname>
+      <surname>Trojanowski</surname>
+    </name>
+    <address>
+      <street>50 Trump Ave.</street>
+      <city>Ottawa</city>
+      <state>ON</state>
+      <zip>K2C 4A4</zip>
+      <country>Canada</country>
+    </address>
+    <contact>
+      <phone>613/282-7102</phone>
+      <email>bart@jukie.net</email>
+      <web>http://www.jukie.net/</web>
+    </contact>
+  </header>
+
+  <objective>
+    <para>I seek direct consulting clients who require custom software development. Services are provided for clients worldwide. I strive to achieve quality, accuracy, performance and maintainability in the products I write.
+    </para>
+  </objective>
+
+  <skillareas>
+    <skillarea>
+      <title>Skills</title>
+      <skillset>
+	<title>General Experience</title>
+	<skills>
+	  <skill>Fluent in C, C++, Java, JavaScript, Perl, PHP, Inetl and Motorolla assembly, SmallTalk, SQL, Pascal, and BASIC.</skill>
+	  <skill>Experienced in many operating systems such as: Linux, Solaris, Windows 2k/NT/98, DOS, MacOS.</skill>
+	  <skill>Very strong problem solving skills.</skill>
+	  <skill>Proficient in multi-threaded and real-time application design and development.</skill>
+	  <skill>Designed various cross-platform libraries.</skill>
+	  <skill>Theoretical and applied understanding of vast network systems, protocols and concepts.</skill>
+	  <skill>Performed development, testing, benchmarking, and debugging many networking and multi-threaded/multii-processor application using Linux tools.</skill>
+	  <skill>Exposure in debugging and optimizing gcc and gdb, of the GNU tool chain, for a custom built ARC processor.</skill>
+	  <skill>Familiar with X application development using GTK+ libraries.</skill>
+	  <skill>Working knowledge of Microsoft Access, DBase IV, and mySQL at both environment and programming levels.</skill>
+	  <skill>Familiarity with countless desktop publishing, productivity and scientific software for various platforms.</skill>
+	</skills>
+      </skillset>
+      <skillset>
+	<title>Networking</title>
+	<skills>
+	  <skill>Berkly sockets (UNIX networking)</skill>
+          <skill>Winsock 1/2 (Windows networking)</skill>
+	  <skill>Network security (firewalls, proxy servers, etc.)</skill>
+	  <skill>TCP, UDP, ICMP, Multicast internals</skill>
+	  <skill>Ethernet, IP and PPP connectivity</skill>
+	  <skill>Routing (mrouted, RIP, BGP) and switching</skill>
+	  <skill>Low-level FTP, HTTP, Telnet, POP3, SMTP, SAMBA</skill>
+	  <skill>Development of IPSec and ISAKMP/IKE protocols</skill>
+	  <skill>SSH, SSL, NFS</skill>
+	  <skill>Internet/Intranet</skill>
+	  <skill>DVB and MPEG standards</skill>
+	</skills>
+      </skillset>
+      <skillset>
+	<title>Kernel/Embedded</title>
+	<skills>
+	  <skill>Extensive knowledge of Linux kernel internals; worked on various optimization projects for the Linux kernel.</skill>
+	  <skill>In depth understanding of Linux boot sequence; used to design custom Linux distribution for use in embedded applications.</skill>
+	  <skill>Expert in debugging, modifying, porting, and optimization of Linux kernel sources.</skill>
+	  <skill>Experienced in embedded development under Linux and pSOS operating systems.</skill>
+	  <skill>Design and implementation knowledge for real-time systems.</skill>
+          <skill>Understanding of Solaris and NT driver development.</skill>
+	</skills>
+      </skillset>
+    </skillarea>
+  </skillareas>
+
+  <history>
+    <job>
+      <jobtitle>Software Developer</jobtitle>
+      <employer>Chrysalis-ITS</employer>
+      <period>
+	<from>
+	  <date>
+	    <month>January</month>
+	    <year>2000</year>
+	  </date>
+	</from>
+	<to>
+	  <date>
+	    <month>August</month>
+	    <year>2001</year>
+	  </date>
+	</to>
+      </period>
+      <description>
+	<para>designed, implemented, and responsible for maintenance of a cross platform (Linux/FreeBSD) driver and debug tools for a PCI device; helped in porting it to WinNT and Solaris; designed and implemented an automated testing environment for the PCI device; involved in porting a kernel IPSec implementation to use a hardware accelerator; written various kernel modules to exercise the Chrysalis-ITS hardware; also, worked on various internal tools used by the firmware developers; provided Linux tutelage to other project developers; as a background task maintained a project CVS/NFS server for various developers. 
+	</para>
+      </description>
+    </job>
+
+    <job>
+      <jobtitle>Software Specialist</jobtitle>
+      <employer>International Datacasting Corporation</employer>
+      <period>
+	<from>
+	  <date>
+	    <month>May</month>
+	    <year>1998</year>
+	  </date>
+	</from>
+	<to>
+	  <date>
+	    <month>January</month>
+	    <year>2000</year>
+	  </date>
+	</to>
+      </period>
+      <description>
+	<para>provide support and maintain the Java 'Superflex Status &amp; Control' application (as described below); researched the needed tools and support software, in part designed, and developed the majority of the firmware to drive the next generation Superflex product; firmware is written in C++, taking advantage of POSIX threads, and runs on Linux; was in charge of reducing a commercial Linux install down to 8 MB to fit on a flash disk.
+	</para>
+	<para>extensively involved in design of the firmware and control protocol specification for the new data satellite receiver; solely responsible for research of technologies and development of the firmware; the product uses off the shelf and proprietary products that must be integrated; firmware allows for easy exchange of current hardware for other that are not yet available.
+        </para>
+      </description>
+    </job>
+
+    <job>
+      <jobtitle>Software Developer</jobtitle>
+      <employer>International Datacasting Corporation</employer>
+      <period>
+	<from>
+	  <date>
+	    <month>Aug</month>
+	    <year>1997</year>
+	  </date>
+	</from>
+	<to>
+	  <date>
+	    <month>April</month>
+	    <year>1998</year>
+	  </date>
+	</to>
+      </period>
+      <description>
+        <para>designed and implemented a Java application GUI named 'Status &amp; Control' for the Superflex line of satellite receivers; helped in the effort of debugging pSOS-based firmware, written in C++, that was configured by the GUI; as a result became very comfortable with switching between Java and C++; aided in the debugging efforts of a QNX system control software used to remotely control receivers; maintained transmit-side modulator software; as a side project built and maintained a Linux routing &amp; gatewaying server that ran a mail spooler, a local DNS and other services.
+        </para>
+      </description>
+    </job>
+
+    <job>
+      <jobtitle>Software Developer / Assistant Project Manager</jobtitle>
+      <employer>Evergreen Wildfire Systems</employer>
+      <period>
+	<from>
+	  <date>
+	    <month>September</month>
+	    <year>1996</year>
+	  </date>
+	</from>
+	<to>
+	  <date>
+	    <month>August</month>
+	    <year>1997</year>
+	  </date>
+	</to>
+      </period>
+      <description>
+	<para>involved in the development of Sparrow GIS software; duties range from constructing graphing and charting facilities, to user interface design and debugging code for Sparrow, a program which visually represents geographical statistics retrieved from relational databases;
+	</para>
+        <para>involved in supervising and development of many projects including "Parks Fire Web" an intranet &amp; internet solution to distributing public and internal forest fire information amongst its institutions;
+	</para>
+      </description>
+    </job>
+
+    <job>
+      <jobtitle>Software Developer / Consultant</jobtitle>
+      <employer>Parks Canada</employer>
+      <period>
+	<from>
+	  <date>
+	    <month>May</month>
+	    <year>1995</year>
+	  </date>
+	</from>
+	<to>
+	  <date>
+	    <month>August</month>
+	    <year>1996</year>
+	  </date>
+	</to>
+      </period>
+      <description>
+	<para>participated in the development of the fire management system currently in use by National Parks of Canada; duties included the design a GUI to provide remote database access functions &amp; greater ease of use; after project completion involved in updating this system to current client requirements, adding functionality to the existing application;
+	</para>
+      </description>
+    </job>
+
+    <job>
+      <jobtitle>Software Developer/Consultant</jobtitle>
+      <employer>Datacast Communications</employer>
+      <period>
+	<from>
+	  <date>
+	    <month>September</month>
+	    <year>1995</year>
+	  </date>
+	</from>
+	<to>
+	  <date>
+	    <month>April</month>
+	    <year>1996</year>
+	  </date>
+	</to>
+      </period>
+      <description>
+	<para>while on the project entitled "Newspapers for the blind" assisted the visually challenged in setting up VBI equipment in home in order to receive electronic papers; participated in a team environment to develop a WWW server, for Smart Communities, that mimicking Yellow Pages but in electronic form;
+	</para>
+      </description>
+    </job>
+
+    <job>
+      <jobtitle>Junior Software Developer</jobtitle>
+      <employer>Telesat Canada</employer>
+      <period>
+	<from>
+	  <date>
+	    <month>June</month>
+	    <year>1994</year>
+	  </date>
+	</from>
+	<to>
+	  <date>
+	    <month>August</month>
+	    <year>1994</year>
+	  </date>
+	</to>
+      </period>
+      <description>
+	<para>high school summer Co-op; placed, at personal request; briefly introduced to networking on IBM/9000, the Virtual Machine environment and UNIX architectures; tasks involved developing database entry sheets for personnel, payroll and security data on the VM; also developed helper applications using the C programming language under UNIX;
+	</para>
+      </description>
+    </job>
+
+  </history>
+
+
+
+  <academics>
+    <degrees>
+      <degree>
+	<level>Bachelor of Science</level>
+	<subject>Computer Science with Software Option</subject>
+	<date>
+	  <month>May</month>
+	  <year>1999</year>
+	</date>
+	<institution>Carleton Univerisy</institution>
+        <annotation>
+          <para>Five year Co-op program.  Degree awarded with <emphasis>Highest Honours</emphasis> standing. 
+          </para>
+          <para>Studies concentrated on: Computer Networking and Cryptography
+, Operating Systems &amp; Real-time Systems, Object Oriented Programming, Artificial Intelligence, Computer Graphics &amp; Simulations, and Database Development.
+          </para>
+        </annotation>
+      </degree>
+    </degrees>
+
+    <degrees>
+      <degree>
+	<level>Ontario Academic Credits Diploma</level>
+	<subject>High School</subject>
+	<date>
+	  <month>May</month>
+	  <year>1994</year>
+	</date>
+	<institution>Sir Wilfrid Laurier Secondary School</institution>
+        <annotation>
+          <para>Diploma awarded with <emphasis>Honours</emphasis> standing.
+          </para>
+        </annotation>
+      </degree>
+    </degrees>
+
+  </academics>
+
+
+  <list>
+    <title>Open Source Projects</title>
+    <items>
+      <item>currently involved in redesign efforts of KLIPS (kernel part of the IPSec implementation for Linux); my involvement lies in the development of a kernel-space crypto library: <url>http://www.jukie.net/~bart/linux-ipsec</url>.</item>
+      <item>developing an elf signing utility which uses the GnuPG engine for digitally signing elf executables: <url>http://elfsign.sourceforge.net</url>.</item>
+      <item>developing a firewall construction tool for RedHat systems running ipchains, called Fire Gnome: <url>http://www.jukie.net/~bart/gfirewall/</url>.</item>
+    </items>
+  </list>
+
+
+  <list>
+    <title>Noteworthy Achievements</title>
+    <items>
+      <item>awarded Canadian Govenrment's Personnel Security Standard, "Enhanced Reliability" level.</item>
+      <item>running Linux as primary operating system for the last six years at home, and for the last four years in an office environment.</item>
+      <item>runs his own Linux router at home, hosting a personal web site, email, etc.</item>
+      <item>in order to learn PHP, launched two 'webzines' for use by friends and the Linux community</item>
+      <item>while at university, was the president and part owner of Computer Emporium, a home business engaged in computer sales and network/firewall installations.</item>
+      <item>developed, set-up and maintained an online searchable price database for Computer Emporium</item>
+    </items>
+  </list>
+
+
+</resume>

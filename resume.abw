@@ -1,0 +1,118 @@
+<?xml version="1.0"?>
+<abiword version="0.7.14"  fileformat="1.0">
+<!-- =====================================================================  -->
+<!-- This file is an AbiWord document.                                      -->
+<!-- AbiWord is a free, Open Source word processor.                         -->
+<!-- You may obtain more information about AbiWord at www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<!--         Build_ID          = (none) -->
+<!--         Build_Version     = 0.7.14 -->
+<!--         Build_Options     = LicensedTrademarks:Off Debug:Off BiDi:Off Bonobo:Off DirectPrint:On Gnome:On LibXML:Off Pspell:Off -->
+<!--         Build_Target      = /home/peter/build-buddy/helix-extras/abi/BUILD/abisuite-0.7.14/abi/src/Linux_2.2.15_i386_GNOME/obj -->
+<!--         Build_CompileTime = 16:55:29 -->
+<!--         Build_CompileDate = May 24 2001 -->
+
+<pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="inch" page-scale="1.000000"/>
+<section header="2100192476">
+<p props="text-align:center"><c props="font-weight:bold">Bart Trojanowski's Resume</c></p>
+<p></p>
+<p props="text-align:center"><c props="font-size: 8 pt">Bart Trojanowski</c></p>
+<p props="text-align:center"><c props="font-size: 8 pt">50 Trump Ave.</c></p>
+<p props="text-align:center"><c props="font-size: 8 pt">Ottawa, ON K2C 4A4</c></p>
+<p props="text-align:center"></p>
+<p props="text-align:center"><c props="font-size: 8 pt">Phone: 613/282-7102</c></p>
+<p props="text-align:center"><c props="font-size: 8 pt">Email: bart@jukie.net</c></p>
+<p props="text-align:center"></p>
+<p>Professional Objective:</p>
+<p>    </p>
+<p props="tabstops:1.3125in/L0"><c props="font-size: 8 pt">    I seek direct consulting clients who require custom software development. Services are provided for clients worldwide. I strive to achieve quality, accuracy, performance and maintainability in the products I write.</c></p>
+<p props="tabstops:1.3125in/L0"></p>
+<p>Skills:</p>
+<p></p>
+<p><c props="font-size: 10 pt; font-weight:bold">General Experience</c></p>
+<p><c props="font-size: 8 pt">- Fluent in C, C++, Java, JavaScript, Perl, PHP, Intel and Motorola assembly, SmallTalk, SQL, Pascal, and BASIC., </c></p>
+<p><c props="color:000000; font-family:Times New Roman; font-size:8pt; font-style:normal; font-weight:normal; text-decoration:none; text-position:normal">- </c><c props="font-size: 8 pt">Experienced in many operating systems such as: Linux, Solaris, FreeBSD, Windows 2k/NT/98, DOS, MacOS., </c></p>
+<p><c props="color:000000; font-family:Times New Roman; font-size:8pt; font-style:normal; font-weight:normal; text-decoration:none; text-position:normal">- </c><c props="font-size: 8 pt">Very strong problem solving skills.,     </c></p>
+<p><c props="color:000000; font-family:Times New Roman; font-size:8pt; font-style:normal; font-weight:normal; text-decoration:none; text-position:normal">- </c><c props="font-size: 8 pt">Proficient in multi-threaded and real-time application design and development., </c></p>
+<p><c props="color:000000; font-family:Times New Roman; font-size:8pt; font-style:normal; font-weight:normal; text-decoration:none; text-position:normal">- </c><c props="font-size: 8 pt">Designed various cross-platform libraries., </c></p>
+<p><c props="color:000000; font-family:Times New Roman; font-size:8pt; font-style:normal; font-weight:normal; text-decoration:none; text-position:normal">- </c><c props="font-size: 8 pt">Theoretical and applied understanding of vast network systems, protocols and concepts., </c></p>
+<p><c props="color:000000; font-family:Times New Roman; font-size:8pt; font-style:normal; font-weight:normal; text-decoration:none; text-position:normal">- </c><c props="font-size: 8 pt">Performed development, testing, benchmarking, and debugging many networking and multi-threaded/processor application using Linux tools., </c></p>
+<p><c props="color:000000; font-family:Times New Roman; font-size:8pt; font-style:normal; font-weight:normal; text-decoration:none; text-position:normal">- </c><c props="font-size: 8 pt">Exposure in debugging and optimizing gcc and gdb, of the GNU tool chain, for a custom built ARC processor., </c></p>
+<p><c props="color:000000; font-family:Times New Roman; font-size:8pt; font-style:normal; font-weight:normal; text-decoration:none; text-position:normal">- </c><c props="font-size: 8 pt">Familiar with X application development using GTK+ libraries.,</c></p>
+<p><c props="color:000000; font-family:Times New Roman; font-size:8pt; font-style:normal; font-weight:normal; text-decoration:none; text-position:normal">- </c><c props="font-size: 8 pt">Working knowledge of Microsoft Access, DBase IV, and mySQL at both environment and programming levels., </c></p>
+<p><c props="color:000000; font-family:Times New Roman; font-size:8pt; font-style:normal; font-weight:normal; text-decoration:none; text-position:normal">- </c><c props="font-size: 8 pt">Familiarity with countless desktop publishing, productivity and scientific software for various platforms.</c></p>
+<p>  </p>
+<p><c props="font-size: 10 pt; font-weight:bold">Networking</c>  </p>
+<p><c props="font-size: 8 pt">- Berkley sockets (UNIX networking), </c></p>
+<p><c props="font-size: 8 pt">- Winsock 1/2 (Windows networking), </c></p>
+<p><c props="font-size: 8 pt">- Network security (firewalls, proxy servers, etc.), </c></p>
+<p><c props="font-size: 8 pt">- TCP, UDP, ICMP, Multicast internals, </c></p>
+<p><c props="font-size: 8 pt">- Ethernet, IP and PPP connectivity,</c></p>
+<p><c props="font-size: 8 pt">- Routing (mrouted, RIP, BGP) and switching, </c></p>
+<p><c props="font-size: 8 pt">- Low-level FTP, HTTP, Telnet, POP3, SMTP, SAMBA, </c></p>
+<p><c props="font-size: 8 pt">- Development of IPSec and ISAKMP/IKE protocols, </c></p>
+<p><c props="font-size: 8 pt">- SSH, SSL, NFS,</c></p>
+<p><c props="font-size: 8 pt">- Internet/Intranet, </c></p>
+<p><c props="font-size: 8 pt">- DVB and MPEG standards</c></p>
+<p></p>
+<p><c props="font-size: 10 pt; font-weight:bold">Kernel/Embedded  </c></p>
+<p><c props="font-size: 8 pt">- Extensive knowledge of Linux kernel internals; worked on various optimization projects for the Linux kernel., </c></p>
+<p><c props="font-size: 8 pt">- In depth understanding of Linux boot sequence; used to design custom Linux distribution for use in embedded applications., </c></p>
+<p><c props="font-size: 8 pt">- Expert in debugging, modifying, porting, and optimization of Linux kernel sources., </c></p>
+<p><c props="font-size: 8 pt">- Experienced in embedded development under Linux and pSOS operating systems., </c></p>
+<p><c props="font-size: 8 pt">- Design and implementation knowledge for real-time systems.,</c></p>
+<p><c props="font-size: 8 pt">- Understanding of Solaris and NT driver development.</c></p>
+<p></p>
+<p></p>
+<p>Employment History:</p>
+<p>    </p>
+<p><c props="font-size: 10 pt; font-weight:bold">Software Developer    @    Chrysalis-ITS    [ January 2000-August 2001 ]</c></p>
+<p><c props="font-size: 8 pt">    designed, implemented, and responsible for maintenance of a cross platform (Linux/FreeBSD) driver and debug tools for a PCI device; helped in porting it to WinNT and Solaris; designed and implemented an automated testing environment for the PCI device; involved in porting a kernel IPSec implementation to use a hardware accelerator; written various kernel modules to exercise the Chrysalis-ITS hardware; also, worked on various internal tools used by the firmware developers; provided Linux tutelage to other project developers; as a background task maintained a project CVS/NFS server for various developers.</c></p>
+<p>    </p>
+<p><c props="font-size: 10 pt; font-weight:bold">Software Specialist    @    International Datacasting Corporation    [ May 1998-January 2000 ]</c></p>
+<p><c props="font-size: 8 pt">    provide support and maintain the Java 'Superflex Status &amp; Control' application (as described below); researched the needed tools and support software, in part designed, and developed the majority of the firmware to drive the next generation Superflex product; firmware is written in C++, taking advantage of POSIX threads, and runs on Linux; was in charge of reducing a commercial Linux install down to 8 MB to fit on a flash disk. extensively involved in design of the firmware and control protocol specification for the new data satellite receiver; solely responsible for research of technologies and development of the firmware; the product uses off the shelf and proprietary products that must be integrated; firmware allows for easy exchange of current hardware for other that are not yet available.</c></p>
+<p>    </p>
+<p><c props="font-size: 10 pt; font-weight:bold">Software Developer    @    International Datacasting Corporation    [ Aug 1997-April 1998 ]</c></p>
+<p><c props="font-size: 8 pt">    designed and implemented a Java application GUI named 'Status &amp; Control' for the Superflex line of satellite receivers; helped in the effort of debugging pSOS-based firmware, written in C++, that was configured by the GUI; as a result became very comfortable with switching between Java and C++; aided in the debugging efforts of a QNX system control software used to remotely control receivers; maintained transmit-side modulator software; as a side project built and maintained a Linux routing &amp; gatewaying server that ran a mail spooler, a local DNS and other services.</c></p>
+<p>    </p>
+<p><c props="font-size: 10 pt; font-weight:bold">Software Developer / Assistant Project Manager    @    Evergreen Wildfire Systems    [ Sept 1996-Aug 1997 ]</c></p>
+<p><c props="font-size: 8 pt">    involved in the development of Sparrow GIS software; duties rangefrom constructing graphing and charting facilities, to user interfacedesign and debugging code for Sparrow, a program which visually representsgeographical statistics retrieved from relational databases;involved in supervising and development of many projects including "Parks Fire Web" an Intranet &amp; Internet solution to distributing public and internal forest fire information amongst its institutions;</c></p>
+<p>    </p>
+<p><c props="font-size: 10 pt; font-weight:bold">Software Developer / Consultant    @    Parks Canada    [ May 1995-August 1996 ]</c></p>
+<p><c props="font-size: 8 pt">    participated in the development of the fire management system currently in use by National Parks of Canada; duties included the design a GUI to provide remote database access functions &amp; greater ease of use; after project completion involved in updating this system to current client requirements, adding functionality to the existing application;</c></p>
+<p>    </p>
+<p><c props="font-size: 10 pt; font-weight:bold">Software Developer/Consultant    @    Datacast Communications    [ September 1995-April 1996 ]</c></p>
+<p><c props="font-size: 8 pt">    while on the project entitled "Newspapers for the blind" assisted the visually challenged in setting up VBI equipment in home in order to receive electronic papers; participated in a team environment to develop a WWW server, for Smart Communities, that mimicking Yellow Pages but in electronic form;</c></p>
+<p>    </p>
+<p><c props="font-size: 10 pt; font-weight:bold">Junior Software Developer    @    Telesat Canada    [ June 1994-August 1994 ]</c></p>
+<p><c props="font-size: 8 pt">    high school summer Co-op; placed, at personal request; briefly introduced to networking on IBM/9000, the Virtual Machine environment and UNIX architectures; tasks involved developing database entry sheets for personnel, payroll and security data on the VM; also developed helper applications using the C programming language under UNIX;</c></p>
+<p></p>
+<p></p>
+<p>Academics:</p>
+<p></p>
+<p><c props="font-size: 10 pt; font-weight:bold">Bachelor of Science in Computer Science with Software Option, May 1999, Carleton University.</c></p>
+<p><c props="font-size: 8 pt">    -    Five year Co-op program. Degree awarded with Highest Honours standing. Studies concentrated on: Computer Networking and Cryptography , Operating Systems &amp; Real-time Systems, Object Oriented Programming, Artificial Intelligence, Computer Graphics &amp; Simulations, and Database Development.</c></p>
+<p>    </p>
+<p><c props="font-size: 10 pt; font-weight:bold">Ontario Academic Credits Diploma in High School, May 1994, Sir Wilfrid Laurier Secondary School.</c></p>
+<p><c props="font-size: 8 pt">    -    Diploma awarded with Honours standing.</c></p>
+<p>    </p>
+<p>Open Source Projects:</p>
+<p><c props="font-size: 8 pt">- currently involved in redesign efforts of KLIPS (kernel part of the IPSec implementation for Linux); my involvement lies in the development of a kernel-space crypto library: http://www.jukie.net/~bart/linux-ipsec.</c></p>
+<p><c props="font-size: 8 pt">- developing an elf signing utility which uses the GnuPG engine for digitally signing elf executables: http://elfsign.sourceforge.net.</c></p>
+<p><c props="font-size: 8 pt">- developing a firewall construction tool for Red Hat systems running ipchains, called Fire Gnome: http://www.jukie.net/~bart/gfirewall/.</c></p>
+<p></p>
+<p><c props="font-size: 12 pt">Noteworthy Achievements:</c></p>
+<p><c props="font-size: 8 pt">- awarded Canadian Government's Personnel Security Standard, "Enhanced Reliability" level.</c></p>
+<p><c props="font-size: 8 pt">- running Linux as primary operating system for the last six years at home, and for the last four years in an office environment.</c></p>
+<p><c props="font-size: 8 pt">- runs his own Linux router at home, hosting a personal web site, email, etc.</c></p>
+<p><c props="font-size: 8 pt">- in order to learn PHP, launched two 'webzines' for use by friends and the Linux community</c></p>
+<p><c props="font-size: 8 pt">- while at university, was the president and part owner of Computer Emporium, a home business engaged in computer sales and network/firewall installations.</c></p>
+<p><c props="font-size: 8 pt">- developed, set-up and maintained an online searchable price database for Computer Emporium</c></p>
+<p></p>
+</section>
+<section id="2100192476" listid="0" parentid="0" type="header">
+<p style="Normal" props="text-align:left"></p>
+</section>
+</abiword>
