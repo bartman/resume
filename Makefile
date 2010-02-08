@@ -71,7 +71,9 @@ fo_style?=$(xsl_base)/output/$(country)-$(papersize).xsl
 upgrade_13x_140_style?=$(xsl_base)/misc/13x-140.xsl
 
 css = resume.css
-css_arg = -PARAM css.href "${src}/${css}"
+
+xslt_params = -PARAM css.href "${src}/${css}" \
+	      -PARAM skills.format bullet
 
 #------------------------------------------------------------------------------
 # Processing software
@@ -86,7 +88,7 @@ CLASSPATH?=\
 
 java?=CLASSPATH="${CLASSPATH}" java
 
-xsl_proc?= ${java} org.apache.xalan.xslt.Process $(xsl_flags) -in $(in) -xsl $(xsl) -out $(out) ${css_arg}
+xsl_proc?= ${java} org.apache.xalan.xslt.Process $(xsl_flags) -in $(in) -xsl $(xsl) -out $(out) ${xslt_params}
 #xsl_proc?= ${java} com.icl.saxon.StyleSheet $(xsl_flags) -o $(out) $(in) $(xsl) $(xsl_params)
 
 pdf_proc?= ${java} org.apache.fop.apps.Fop -fo $(fo_flags) $(in) -pdf $(out)
