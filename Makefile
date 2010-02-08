@@ -68,6 +68,8 @@ text_style?=$(xsl_base)/output/$(country)-text.xsl
 fo_style?=$(xsl_base)/output/$(country)-$(papersize).xsl
 upgrade_13x_140_style?=$(xsl_base)/misc/13x-140.xsl
 
+css = -PARAM css.href "$(shell pwd)/resume.css"
+
 #------------------------------------------------------------------------------
 # Processing software
 #------------------------------------------------------------------------------
@@ -76,19 +78,22 @@ make?=gmake
 CLASSPATH?=\
 /usr/share/java/xalan2.jar:\
 /usr/share/java/fop-0.20.5.jar:\
-/usr/share/java/avalon-framework-4.2.0.jar
+/usr/share/java/avalon-framework-4.2.0.jar:\
+/usr/share/java/xmlgraphics-commons-1.2.jar
 
-xsl_proc?=java org.apache.xalan.xslt.Process $(xsl_flags) -in $(in) -xsl $(xsl) -out $(out)
-#xsl_proc?=java com.icl.saxon.StyleSheet $(xsl_flags) -o $(out) $(in) $(xsl) $(xsl_params)
+java?=CLASSPATH="${CLASSPATH}" java
 
-pdf_proc?=java org.apache.fop.apps.Fop -fo $(fo_flags) $(in) -pdf $(out)
+xsl_proc?= ${java} org.apache.xalan.xslt.Process $(xsl_flags) -in $(in) -xsl $(xsl) -out $(out) ${css}
+#xsl_proc?= ${java} com.icl.saxon.StyleSheet $(xsl_flags) -o $(out) $(in) $(xsl) $(xsl_params)
+
+pdf_proc?= ${java} org.apache.fop.apps.Fop -fo $(fo_flags) $(in) -pdf $(out)
 #pdf_proc?=~/bin/xep/run.sh $(fo_flags) $(in) $(out)
 
 # RTF generation currently requires you download a separate, closed source jar 
 # file and add it to your java classpath: 	
 # http://www.xmlmind.com/foconverter/downloadperso.shtml
-rtf_proc?=java com.xmlmind.fo.converter.Driver $(in) $(out)
-#rtf_proc?=java ch.codeconsult.jfor.main.CmdLineConverter $(in) $(out)
+rtf_proc?= ${java} com.xmlmind.fo.converter.Driver $(in) $(out)
+#rtf_proc?= ${java} ch.codeconsult.jfor.main.CmdLineConverter $(in) $(out)
 
 # Element filtering allows you to create targeted resumes.  
 # You can create your own targets; just specify them in your resume.xml 
@@ -99,7 +104,7 @@ rtf_proc?=java com.xmlmind.fo.converter.Driver $(in) $(out)
 # Take a look at example2.xml and try changing the filter targets to get a 
 # feel for how the filter works.
 filter_targets?=foodservice carpentry
-filter_proc?=java net.sourceforge.xmlresume.filter.Filter -in $(in) -out $(out) $(filter_targets)
+filter_proc?= ${java} net.sourceforge.xmlresume.filter.Filter -in $(in) -out $(out) $(filter_targets)
 
 #------------------------------------------------------------------------------
 # End configurable parameters
@@ -133,39 +138,46 @@ $(resume).html: in = $(resume).xml
 $(resume).html: out = $(resume).html
 $(resume).html: xsl = $(html_style)
 $(resume).html: $(resume).xml
+	@echo building html
 	$(xsl_proc)
 
 $(resume).txt: in = $(resume).xml
 $(resume).txt: out = $(resume).txt
 $(resume).txt: xsl = $(text_style)
 $(resume).txt: $(resume).xml
+	@echo building txt
 	$(xsl_proc)
 
 $(resume).fo: in = $(resume).xml
 $(resume).fo: out = $(resume).fo
 $(resume).fo: xsl = $(fo_style)
 $(resume).fo: $(resume).xml
+	@echo building fo
 	$(xsl_proc)
 
 $(resume).pdf: in = $(resume).fo
 $(resume).pdf: out = $(resume).pdf
 $(resume).pdf: $(resume).fo
+	@echo building pdf
 	$(pdf_proc)
 
 $(resume).rtf: in = $(resume).fo
 $(resume).rtf: out = $(resume).rtf
 $(resume).rtf: $(resume).fo
+	@echo building rtf
 	$(rtf_proc)
 
 $(resume)-140.xml: in = $(resume).xml
 $(resume)-140.xml: out = $(resume)-140.xml
 $(resume)-140.xml: xsl = $(upgrade_13x_140_style)
 $(resume)-140.xml: $(resume).xml
+	@echo building 140 xml
 	$(xsl_proc)
 
 $(resume)-filtered.xml: in = $(resume).xml
 $(resume)-filtered.xml: out = $(resume)-filtered.xml
 $(resume)-filtered.xml: $(resume).xml
+	@echo building filtered xml
 	$(filter_proc)
 	$(make) all resume=$(resume)-filtered
 
