@@ -89,7 +89,7 @@ This is a resume of Bart Trojanowski
       <skillset>
         <title>General Experience</title>
         <skill>Fluent in C, C++ and i386/x86-64 assembly, and experienced in Perl, Lua, Ruby, Java, JavaScript, PHP, SmallTalk, SQL, Pascal, and BASIC.</skill>
-        <skill>Experienced in many operating systems such as: Linux, Solaris, *BSD, Windows 2k/NT/98, DOS, MacOS.</skill>
+        <skill>Experienced in many operating systems such as: Linux, Solaris, *BSD, Windows, DOS, OS/X.</skill>
         <skill>Very strong problem solving skills.</skill>
         <skill>Proficient in multi-threaded and real-time application design and development.</skill>
         <skill>Designed various cross-platform drivers, libraries, and applications.</skill>
@@ -98,23 +98,22 @@ This is a resume of Bart Trojanowski
         <skill>Theoretical and applied understanding of vast network systems, protocols and concepts.</skill>
         <skill>Performed development, testing, benchmarking, profiling , and debugging many networking and multi-threaded/multi-processor application using Linux tools.</skill>
         <skill>Exposure in debugging and optimizing gcc and gdb, of the GNU tool chain, for a custom built ARC processor.</skill>
-        <skill>Familiar with X application development using GTK+ libraries.</skill>
-        <skill>Working knowledge of Microsoft Access, DBase IV, and mySQL at both environment and programming levels.</skill>
+        <skill>Familiar with X, both at an application level side as well as with server and driver code.</skill>
+        <skill>Working knowledge of databases like pgsql and mysql.</skill>
         <skill>Familiarity with countless desktop publishing, productivity and scientific software for various platforms.</skill>
       </skillset>
       <skillset>
         <title>Networking</title>
         <skill>Berkeley sockets (UNIX networking)</skill>
-        <skill>Linux kernel internals</skill>
+        <skill>Linux network statck internals</skill>
         <skill>Network security (firewalls, deep packet inspection, proxy servers, etc.)</skill>
         <skill>TCP, UDP, ICMP, Multicast internals</skill>
-        <skill>Ethernet, VLAN/QinQ, IP and PPP connectivity</skill>
+        <skill>Ethernet, VLAN/QinQ, IPv4, and IPv6 connectivity</skill>
         <skill>PPPoE, PPPoA, L2TP ISP infrastructure</skill>
-        <skill>Routing (mrouted, RIP, BGP) and switching</skill>
+        <skill>Routing (mrouted, OSPF, RIP, BGP) and switching</skill>
         <skill>Low-level FTP, HTTP, Telnet, POP3, SMTP, SAMBA</skill>
         <skill>Development of IPSec and ISAKMP/IKE protocols</skill>
         <skill>SSH, SSL, NFS</skill>
-        <skill>Internet/Intranet</skill>
         <skill>DVB and MPEG standards</skill>
       </skillset>
       <skillset>
