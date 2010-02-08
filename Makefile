@@ -68,7 +68,8 @@ text_style?=$(xsl_base)/output/$(country)-text.xsl
 fo_style?=$(xsl_base)/output/$(country)-$(papersize).xsl
 upgrade_13x_140_style?=$(xsl_base)/misc/13x-140.xsl
 
-css = -PARAM css.href "$(shell pwd)/resume.css"
+css = resume.css
+css_arg = -PARAM css.href "$(shell pwd)/${css}"
 
 #------------------------------------------------------------------------------
 # Processing software
@@ -83,7 +84,7 @@ CLASSPATH?=\
 
 java?=CLASSPATH="${CLASSPATH}" java
 
-xsl_proc?= ${java} org.apache.xalan.xslt.Process $(xsl_flags) -in $(in) -xsl $(xsl) -out $(out) ${css}
+xsl_proc?= ${java} org.apache.xalan.xslt.Process $(xsl_flags) -in $(in) -xsl $(xsl) -out $(out) ${css_arg}
 #xsl_proc?= ${java} com.icl.saxon.StyleSheet $(xsl_flags) -o $(out) $(in) $(xsl) $(xsl_params)
 
 pdf_proc?= ${java} org.apache.fop.apps.Fop -fo $(fo_flags) $(in) -pdf $(out)
@@ -137,21 +138,21 @@ clean:
 $(resume).html: in = $(resume).xml
 $(resume).html: out = $(resume).html
 $(resume).html: xsl = $(html_style)
-$(resume).html: $(resume).xml
+$(resume).html: $(resume).xml Makefile ${css}
 	@echo building html
 	$(xsl_proc)
 
 $(resume).txt: in = $(resume).xml
 $(resume).txt: out = $(resume).txt
 $(resume).txt: xsl = $(text_style)
-$(resume).txt: $(resume).xml
+$(resume).txt: $(resume).xml Makefile
 	@echo building txt
 	$(xsl_proc)
 
 $(resume).fo: in = $(resume).xml
 $(resume).fo: out = $(resume).fo
 $(resume).fo: xsl = $(fo_style)
-$(resume).fo: $(resume).xml
+$(resume).fo: $(resume).xml Makefile
 	@echo building fo
 	$(xsl_proc)
 
