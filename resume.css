@@ -1,0 +1,118 @@
+h1 {
+  font-family: Roman;
+  font-size:   24pt;
+}
+
+h2 {
+  font-family: Helvatica;
+  font-size:   16pt;
+}
+
+h3 {
+  font-family: Helvatica;
+  font-size:   14pt;
+}
+
+A:link, A:active {
+  text-decoration :       none;
+  color           :       #000099;
+}
+
+A:visited {
+  text-decoration :       none;
+  color           :       #663366;
+}
+
+#unselected {
+  color:          #ffffff;
+}
+
+#selected {
+  color:          #ffff00;
+}
+
+PRE {
+  font-family:    Courier;
+  font-size:      10pt;
+}
+
+FONT.commentblock {
+  background:     #ddeeff;
+  color:          #000000;
+  font-family:    Arial,  Helvetica,      sans-serif;
+  font-size:      11pt;
+}
+
+FONT.summaryblock {
+  background:     #ddeeff;
+  color:          #000000;
+  font-family:    Arial,  Helvetica,      sans-serif;
+  font-size:      11pt;
+}
+
+FONT.error {
+  background:     #ffffff;
+  color:          #ff0000;
+  font-family:    Arial,  Helvetica,      sans-serif;
+  font-size:      11pt;
+}
+
+
+TEXTAREA {
+  background:     #ffffff;
+  color:          #000000;
+  font-family:    Arial,  Helvetica,      sans-serif;
+  font-size:      11pt;
+}
+
+
+
+TD.light {
+  background:     #FFFFFF;
+  color:          #000000;
+  font-family:    Arial,  Helvetica,      sans-serif;
+  font-size:      10pt;
+}
+
+TD.dark {
+  background:     #003399;
+  color:          #FFFFFF;
+  font-family:    Arial,  Helvetica,      sans-serif;
+  font-size:      10pt;
+}
+
+TD.dark A { 
+  color:#FFFFFF;
+  font-weight: bold
+}
+
+TD.banner {
+  background:     #003399;
+  color:          #FFFFFF;
+  font-family:    Arial,  Helvetica,      sans-serif;
+  font-size:      12pt;
+}
+#new {
+  background:     #990099;
+}
+#deleted {
+  background:     #990000;
+}
+TD.banner A { 
+  font-weight: bold;
+}
+TD.banner A:link {
+  color:#FFFFFF;
+}
+TD.banner A:visited {
+  color:#AAAAAA;
+}
+
+
+TD.content {
+  background:     #FFFFFF;
+  color:          #000000;
+  font-family:    Arial,  Helvetica,      sans-serif;
+  font-size:      10pt;
+}
+
