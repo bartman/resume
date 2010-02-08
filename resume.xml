@@ -354,28 +354,18 @@ This is a resume of Bart Trojanowski
   </academics>
 
 
-  <list>
-    <title>Open Source Projects</title>
-    <items>
-      <item>currently working on Debian port to AMD64 architecture (AMD Opteron chip); see <url>http://www.jukie.net/~bart/debian/amd64/</url>.</item>
-      <item>previously involved in redesign efforts of KLIPS (kernel part of the IPSec implementation for Linux); my involvement lies in the development of a kernel-space crypto library: <url>http://www.jukie.net/~bart/linux-ipsec</url>.</item>
-      <item>developing an elf signing utility which uses the GnuPG engine for digitally signing elf executables: <url>http://elfsign.sourceforge.net</url>.</item>
-      <item>developing a firewall construction tool for Red Hat systems running ipchains, called Fire Gnome: <url>http://www.jukie.net/~bart/gfirewall/</url>.</item>
-    </items>
-  </list>
-
-
-  <list>
-    <title>Noteworthy Achievements</title>
-    <items>
-      <item>awarded Canadian Government's Personnel Security Standard, "Enhanced Reliability" level.</item>
-      <item>running Linux as primary operating system for the last six years at home, and for the last four years in an office environment.</item>
-      <item>runs his own Linux router at home, hosting a personal web site, email, etc.</item>
-      <item>in order to learn PHP, launched two 'webzines' for use by friends and the Linux community</item>
-      <item>while at university, was the president and part owner of Computer Emporium, a home business engaged in computer sales and network/firewall installations.</item>
-      <item>developed, set-up and maintained an online searchable price database for Computer Emporium</item>
-    </items>
-  </list>
-
+  <misc>
+    <para>
+      <emphasis>Open Source Projects</emphasis>
+    </para>
+    <para>maintains window manager wmii-lua; see <link>http://github.com/bartman/wmii-lua</link>.</para>
+    <para>contributed to Debian port to AMD64 architecture (AMD Opteron chip); see <link>http://www.jukie.net/~bart/debian/amd64/</link>.</para>
+    <para>involved in redesign efforts of KLIPS (kernel part of the IPSec implementation for Linux); my involvement lies in the development of a kernel-space crypto library; see: <link>http://www.jukie.net/~bart/linux-ipsec</link>.</para>
+    <para>developed an elf signing utility which uses the GnuPG engine for digitally signing elf executables; see: <link>http://elfsign.sourceforge.net</link>.</para>
+    <para>... and much, much more; see <link>https://www.ohloh.net/accounts/bartman</link> and <link>http://github.com/bartman</link></para>
+  </misc>
 
 </resume>
+<!--
+#vim: et ts=2 sw=2
+-->
