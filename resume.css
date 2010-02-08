@@ -59,4 +59,7 @@ table.referees { width: 60%; margin-top: 0cm; margin-bottom: 0cm;}
 .skillsetTitle { font-weight: bold }
 .urlA { font-family:sans-serif; color:red; }
 
+span.skillSetTitle { font-weight: bold; }
+span.skills { display: list-item; }
+
 </xsl:stylesheet>
