@@ -81,12 +81,10 @@ This is a resume of Bart Trojanowski
     </para>
   </objective>
 
-  <skillareas>
     <skillarea>
       <title>Skills</title>
       <skillset>
 	<title>General Experience</title>
-	<skills>
 	  <skill>Fluent in C, C++, Java, JavaScript, Perl, PHP, Intel and Motorola assembly, SmallTalk, SQL, Pascal, and BASIC.</skill>
 	  <skill>Experienced in many operating systems such as: Linux, Solaris, FreeBSD, Windows 2k/NT/98, DOS, MacOS.</skill>
 	  <skill>Very strong problem solving skills.</skill>
@@ -98,11 +96,9 @@ This is a resume of Bart Trojanowski
 	  <skill>Familiar with X application development using GTK+ libraries.</skill>
 	  <skill>Working knowledge of Microsoft Access, DBase IV, and mySQL at both environment and programming levels.</skill>
 	  <skill>Familiarity with countless desktop publishing, productivity and scientific software for various platforms.</skill>
-	</skills>
       </skillset>
       <skillset>
 	<title>Networking</title>
-	<skills>
 	  <skill>Berkeley sockets (UNIX networking)</skill>
           <skill>Winsock 1/2 (Windows networking)</skill>
 	  <skill>Network security (firewalls, proxy servers, etc.)</skill>
@@ -114,21 +110,17 @@ This is a resume of Bart Trojanowski
 	  <skill>SSH, SSL, NFS</skill>
 	  <skill>Internet/Intranet</skill>
 	  <skill>DVB and MPEG standards</skill>
-	</skills>
       </skillset>
       <skillset>
 	<title>Kernel/Embedded</title>
-	<skills>
 	  <skill>Extensive knowledge of Linux kernel internals; worked on various optimization projects for the Linux kernel.</skill>
 	  <skill>In depth understanding of Linux boot sequence; used to design custom Linux distribution for use in embedded applications.</skill>
 	  <skill>Expert in debugging, modifying, porting, and optimization of Linux kernel sources.</skill>
 	  <skill>Experienced in embedded development under Linux and pSOS operating systems.</skill>
 	  <skill>Design and implementation knowledge for real-time systems.</skill>
           <skill>Understanding of Solaris and NT driver development.</skill>
-	</skills>
       </skillset>
     </skillarea>
-  </skillareas>
 
   <history>
     <job>
