@@ -9,52 +9,79 @@ This is a resume of Bart Trojanowski
 <resume>
   <keywords>
     <keyword>algorithm</keyword>
-    <keyword>Apache</keyword>
+    <keyword>amd64</keyword>
+    <keyword>Android</keyword>
+    <keyword>ARM</keyword>
     <keyword>assembler</keyword>
     <keyword>assembly</keyword>
     <keyword>Athlon</keyword>
-    <keyword>bart</keyword>
+    <keyword>Bart</keyword>
+    <keyword>BIOS</keyword>
     <keyword>c</keyword>
     <keyword>c++</keyword>
-    <keyword>consulting</keyword>
+    <keyword>consultant</keyword>
     <keyword>contract</keyword>
-    <keyword>contract programming</keyword>
+    <keyword>contractor</keyword>
     <keyword>cross</keyword>
     <keyword>cross-platform</keyword>
+    <keyword>cryptography</keyword>
     <keyword>debug</keyword>
+    <keyword>distributed</keyword>
+    <keyword>driver</keyword>
+    <keyword>embedded</keyword>
+    <keyword>Ethernet</keyword>
+    <keyword>file system</keyword>
+    <keyword>filesystem</keyword>
     <keyword>geek</keyword>
+    <keyword>Git</keyword>
+    <keyword>ia32</keyword>
+    <keyword>IP</keyword>
+    <keyword>IPSec</keyword>
     <keyword>ipsec</keyword>
-    <keyword>IP security</keyword>
+    <keyword>IPv6</keyword>
     <keyword>Java</keyword>
     <keyword>jukie</keyword>
+    <keyword>kernel</keyword>
     <keyword>linux</keyword>
     <keyword>logic</keyword>
-    <keyword>macos</keyword>
+    <keyword>lua</keyword>
+    <keyword>MIPS</keyword>
     <keyword>multi threaded</keyword>
     <keyword>multithreaded</keyword>
     <keyword>MySQL</keyword>
+    <keyword>networking</keyword>
+    <keyword>network</keyword>
     <keyword>object</keyword>
     <keyword>object-oriented</keyword>
     <keyword>Pentium</keyword>
+    <keyword>perl</keyword>
     <keyword>platform</keyword>
     <keyword>porting</keyword>
     <keyword>port</keyword>
+    <keyword>PPC</keyword>
+    <keyword>PPPoE</keyword>
     <keyword>programmer</keyword>
     <keyword>real time</keyword>
     <keyword>real-time</keyword>
     <keyword>resume</keyword>
     <keyword>reverse engineering</keyword>
+    <keyword>revision control system</keyword>
     <keyword>SDK</keyword>
     <keyword>security</keyword>
     <keyword>Smalltalk</keyword>
     <keyword>software development</keyword>
     <keyword>ssh</keyword>
     <keyword>SSL</keyword>
+    <keyword>TCP</keyword>
     <keyword>thread</keyword>
+    <keyword>Trojanowski</keyword>
     <keyword>UNIX</keyword>
-    <keyword>UNIX</keyword>
+    <keyword>version control system</keyword>
+    <keyword>VLAN</keyword>
     <keyword>web</keyword>
     <keyword>x86</keyword>
+    <keyword>X</keyword>
+    <keyword>X.org</keyword>
   </keywords>
 
   <header>
