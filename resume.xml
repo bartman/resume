@@ -262,15 +262,15 @@ This is a resume of Bart Trojanowski
         <to> <date> <month>January</month> <year>2000</year> </date> </to>
       </period>
       <description>
-        <para>provide support and maintain the Java 'Superflex Status &amp; Control' application (as described below); researched the needed tools and support software, in part designed, and developed the majority of the firmware to drive the next generation Superflex product; firmware is written in C++, taking advantage of POSIX threads, and runs on Linux; was in charge of reducing a commercial Linux install down to 8 MB to fit on a flash disk.
+        <para>provide support and maintain the Java 'Superflex Status &amp; Control' application (as described below); researched the needed tools and support software, in part designed, and developed the majority of the firmware to drive the next generation Superflex product; firmware was written in C++, taking advantage of POSIX threads, and runs on Linux; was in charge of reducing a commercial Linux install down to 8 MB to fit on a flash disk.
         </para>
-        <para>extensively involved in design of the firmware and control protocol specification for the new data satellite receiver; solely responsible for research of technologies and development of the firmware; the product uses off the shelf and proprietary products that must be integrated; firmware allows for easy exchange of current hardware for other that are not yet available.
+        <para>extensively involved in design of the firmware and control protocol specification for the new data satellite receiver; solely responsible for research of technologies and development of the firmware; the product used off the shelf and proprietary products that had to be integrated; firmware allowed for easy exchange of current hardware for others that were not yet available.
         </para>
       </description>
     </job>
 
     <job>
-      <jobtitle>Software Developer</jobtitle>
+      <jobtitle>Software Developer (Co-op)</jobtitle>
       <employer>International Datacasting Corporation</employer>
       <period>
         <from> <date> <month>Aug</month> <year>1997</year> </date> </from>
@@ -283,7 +283,7 @@ This is a resume of Bart Trojanowski
     </job>
 
     <job>
-      <jobtitle>Software Developer / Assistant Project Manager</jobtitle>
+      <jobtitle>Software Developer (Co-Op) / Assistant Project Manager</jobtitle>
       <employer>Evergreen Wildfire Systems</employer>
       <period>
         <from> <date> <month>September</month> <year>1996</year> </date> </from>
@@ -292,39 +292,39 @@ This is a resume of Bart Trojanowski
       <description>
         <para>involved in the development of Sparrow GIS software; duties range from constructing graphing and charting facilities, to user interface design and debugging code for Sparrow, a program which visually represents geographical statistics retrieved from relational databases;
         </para>
-        <para>involved in supervising and development of many projects including "Parks Fire Web" an Intranet &amp; Internet solution to distributing public and internal forest fire information amongst its institutions;
+        <para>involved in supervising and development of many projects including "Parks Fire Web," an Intranet &amp; Internet solution to distributing public and internal forest fire information amongst its institutions.
         </para>
       </description>
     </job>
 
     <job>
-      <jobtitle>Software Developer / Consultant</jobtitle>
+      <jobtitle>Software Developer (Co-op)</jobtitle>
       <employer>Parks Canada</employer>
       <period>
         <from> <date> <month>May</month> <year>1995</year> </date> </from>
         <to> <date> <month>August</month> <year>1996</year> </date> </to>
       </period>
       <description>
-        <para>participated in the development of the fire management system currently in use by National Parks of Canada; duties included the design a GUI to provide remote database access functions &amp; greater ease of use; after project completion involved in updating this system to current client requirements, adding functionality to the existing application;
+        <para>participated in the development of the fire management system put in place by National Parks of Canada; duties included the design of a GUI to provide remote database access functions &amp; greater ease of use; updating this system to current client requirements, adding functionality to the existing application.
         </para>
       </description>
     </job>
 
     <job>
-      <jobtitle>Software Developer/Consultant</jobtitle>
+      <jobtitle>Software Developer (Co-op)</jobtitle>
       <employer>Datacast Communications</employer>
       <period>
         <from> <date> <month>September</month> <year>1995</year> </date> </from>
         <to> <date> <month>April</month> <year>1996</year> </date> </to>
       </period>
       <description>
-        <para>while on the project entitled "Newspapers for the blind" assisted the visually challenged in setting up VBI equipment in home in order to receive electronic papers; participated in a team environment to develop a WWW server, for Smart Communities, that mimicking Yellow Pages but in electronic form;
+        <para>while on the project entitled "Newspapers for the blind" assisted the visually challenged in setting up VBI equipment in order to receive electronic papers; participated in a team environment to develop a WWW server, for Smart Communities, that mimicked Yellow Pages but in electronic form.
         </para>
       </description>
     </job>
 
     <job>
-      <jobtitle>Junior Software Developer</jobtitle>
+      <jobtitle>Junior Software Developer (Co-op)</jobtitle>
       <employer>Telesat Canada</employer>
       <period>
         <from> <date> <month>June</month> <year>1994</year> </date> </from>
@@ -344,12 +344,12 @@ This is a resume of Bart Trojanowski
     <degrees>
       <degree>
         <level>Bachelor of Science</level>
+        <institution>Carleton University</institution>
         <subject>Computer Science with Software Option</subject>
         <date>
           <month>May</month>
           <year>1999</year>
         </date>
-        <institution>Carleton University</institution>
         <annotation>
           <para>Five year Co-op program.  Degree awarded with <emphasis>Highest Honours</emphasis> standing. 
           </para>
@@ -359,23 +359,6 @@ This is a resume of Bart Trojanowski
         </annotation>
       </degree>
     </degrees>
-
-    <degrees>
-      <degree>
-        <level>Ontario Academic Credits Diploma</level>
-        <subject>High School</subject>
-        <date>
-          <month>May</month>
-          <year>1994</year>
-        </date>
-        <institution>Sir Wilfrid Laurier Secondary School</institution>
-        <annotation>
-          <para>Diploma awarded with <emphasis>Honours</emphasis> standing.
-          </para>
-        </annotation>
-      </degree>
-    </degrees>
-
   </academics>
 
 
@@ -394,7 +377,7 @@ This is a resume of Bart Trojanowski
     </para>
     <para>
       Written various HOWTOs on Linux setup tasks;
-      recent contributions archived in his blog;
+      recent contributions archived in a blog;
       see: <link>http://www.jukie.net/~bart/blog/</link>
     </para>
 
@@ -403,7 +386,7 @@ This is a resume of Bart Trojanowski
     </para>
     <para>Maintains window manager wmii-lua; see <link>http://github.com/bartman/wmii-lua</link></para>
     <para>Contributed to Debian port to AMD64 architecture (AMD Opteron chip); see <link>http://www.jukie.net/~bart/debian/amd64/</link></para>
-    <para>Involved in redesign efforts of KLIPS (kernel part of the IPSec implementation for Linux); my involvement lies in the development of a kernel-space crypto library; see: <link>http://www.jukie.net/~bart/linux-ipsec</link></para>
+    <para>Involved in redesign efforts of KLIPS (kernel part of the IPSec implementation for Linux); my involvement lay in the development of a kernel-space crypto library; see: <link>http://www.jukie.net/~bart/linux-ipsec</link></para>
     <para>Developed an elf signing utility which uses the GnuPG engine for digitally signing elf executables; see: <link>http://elfsign.sourceforge.net</link></para>
     <para>... and much, much more; see <link>https://www.ohloh.net/accounts/bartman</link> and <link>http://github.com/bartman</link></para>
   </misc>
