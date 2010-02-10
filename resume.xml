@@ -115,16 +115,16 @@ This is a resume of Bart Trojanowski
       <title>Skills</title>
       <skillset>
         <title>General Experience</title>
-        <skill>Fluent in C, C++ and i386/x86-64 assembly, and experienced in Perl, Lua, Ruby, Java, JavaScript, PHP, SmallTalk, SQL, Pascal, and BASIC.</skill>
+        <skill>Fluent in C, C++ and i386/x86-64 assembly, and experienced in Perl, Lua, Ruby, Java, SmallTalk, SQL, Pascal, and BASIC.</skill>
         <skill>Experienced in many operating systems such as: Linux, Solaris, *BSD, Windows, DOS, OS/X.</skill>
         <skill>Very strong problem solving skills.</skill>
         <skill>Proficient in multi-threaded and real-time application design and development.</skill>
         <skill>Designed various cross-platform drivers, libraries, and applications.</skill>
         <skill>Performed ports of several Windows applications and drivers to Linux.</skill>
-        <skill>Worked with certificates, and PKI systems; and with card readers at APDU and framework levels.</skill>
+        <skill>Worked with certificates, PKI systems, and with card readers at APDU and framework levels.</skill>
         <skill>Theoretical and applied understanding of vast network systems, protocols and concepts.</skill>
         <skill>Performed development, testing, benchmarking, profiling, and debugging many networking and multi-threaded/multi-processor applications using Linux tools.</skill>
-        <skill>Exposure in debugging and optimizing gcc and gdb, of the GNU tool chain, for a custom built ARC processor.</skill>
+        <skill>Exposure in debugging and optimizing the GNU tool chain (gcc and gdb) for a custom built ARC processor.</skill>
         <skill>Familiar with X, both at an application development level, as well as with server and driver code.</skill>
         <skill>Working knowledge of databases like pgsql and mysql.</skill>
         <skill>Familiar with countless desktop publishing, productivity and scientific software for various platforms.</skill>
@@ -166,7 +166,7 @@ This is a resume of Bart Trojanowski
         <to> <present/> </to>
       </period>
       <description>
-        <para>runs a successful consulting company specialized in Linux software design and development; has been involved in the design and implementation of a distributed file system, development and porting of several PCI device drivers, and continued development of a Linux IPSec stack; has helped clients draft the architecture for embedded platforms, designed cross-platform driver and system software, and debuged various kernel and real-time issues; has been involved with system bootstrap and x86 BIOS, the X.org system, Linux network internals, deep packet inspection, PPPoE/PPPoA server software, and security software; has contributed patches to open source software, and given lectures on the Linux kernel and Git revision control tool; as part of ongoing efforts to keep current, is passionately following various open source projects such as the Google Android.
+        <para>runs a successful consulting company specialized in Linux software design and development; has been involved in the design and implementation of a distributed file system, development and porting of several PCI device drivers, and continued development of a Linux IPSec stack; has helped clients draft the architecture for embedded platforms, designed cross-platform driver and system software, and debuged various kernel and real-time issues; has been involved with system bootstrap and x86 BIOS, the X.org system, Linux network internals, deep packet inspection, PPPoE/PPPoA server software, and security software; has contributed patches to open source software, and given lectures on the Linux kernel and Git revision control tool; as part of ongoing efforts to keep current, is passionately following various open source projects such as the Linux kernel and Google Android.
         </para>
       </description>
       <projects>
@@ -236,7 +236,7 @@ This is a resume of Bart Trojanowski
         <to> <date> <month>March</month> <year>2004</year> </date> </to>
       </period>
       <description>
-        <para>designed, implemented, and responsible for a set of drivers handling host to radio communication and configuration, via PCI bus; the target platforms of said drivers were arm-linux and x86-linux.
+        <para>designed, implemented, and responsible for a set of drivers handling telecom radio communication and configuration, via PCI bus using async DMA; the target platforms of said drivers were arm-linux and x86-linux.
         </para>
       </description>
     </job>
@@ -262,9 +262,7 @@ This is a resume of Bart Trojanowski
         <to> <date> <month>January</month> <year>2000</year> </date> </to>
       </period>
       <description>
-        <para>provide support and maintain the Java 'Superflex Status &amp; Control' application (as described below); researched the needed tools and support software, in part designed, and developed the majority of the firmware to drive the next generation Superflex product; firmware was written in C++, taking advantage of POSIX threads, and runs on Linux; was in charge of reducing a commercial Linux install down to 8 MB to fit on a flash disk.
-        </para>
-        <para>extensively involved in design of the firmware and control protocol specification for the new data satellite receiver; solely responsible for research of technologies and development of the firmware; the product used off the shelf and proprietary products that had to be integrated; firmware allowed for easy exchange of current hardware for others that were not yet available.
+        <para>developed and maintained a Java based status &amp; control application; researched the needed tools and support software, in part designed, and developed the majority of the firmware to drive the next generation Superflex product; firmware was written in C++, taking advantage of POSIX threads, and ran on Linux; reduced a Linux install to fit on an 8M flash disk; extensively involved in design of the firmware and control protocol specification for the new data satellite receiver; solely responsible for research of technologies and development of the firmware.
         </para>
       </description>
     </job>
@@ -277,7 +275,7 @@ This is a resume of Bart Trojanowski
         <to> <date> <month>April</month> <year>1998</year> </date> </to>
       </period>
       <description>
-        <para>designed and implemented a Java application GUI named 'Status &amp; Control' for the Superflex line of satellite receivers; helped in the effort of debugging pSOS-based firmware, written in C++, that was configured by the GUI; as a result became very comfortable with switching between Java and C++; aided in the debugging efforts of a QNX system control software used to remotely control receivers; maintained transmit-side modulator software; as a side project built and maintained a Linux routing &amp; gatewaying server that ran a mail spooler, a local DNS and other services.
+        <para>designed and implemented a Java based status and control GUI for the Superflex line of satellite receivers; helped in the effort of debugging pSOS-based firmware, written in C++, that was configured by the GUI; as a result became very comfortable with switching between Java and C++; aided in the debugging efforts of a QNX system control software used to remotely control receivers; maintained transmit-side modulator software; as a side project built and maintained a Linux router &amp; server that ran a mail spooler, a local DNS and other services.
         </para>
       </description>
     </job>
@@ -290,9 +288,7 @@ This is a resume of Bart Trojanowski
         <to> <date> <month>August</month> <year>1997</year> </date> </to>
       </period>
       <description>
-        <para>involved in the development of Sparrow GIS software; duties range from constructing graphing and charting facilities, to user interface design and debugging code for Sparrow, a program which visually represents geographical statistics retrieved from relational databases;
-        </para>
-        <para>involved in supervising and development of many projects including "Parks Fire Web," an Intranet &amp; Internet solution to distributing public and internal forest fire information amongst its institutions.
+        <para>involved in the development of Sparrow GIS software; duties range from constructing graphing and charting facilities, to user interface design and debugging code for Sparrow, a program which visually represents geographical statistics retrieved from relational databases; involved in supervising and development of many projects including "Parks Fire Web," an Intranet &amp; Internet solution to distributing public and internal forest fire information amongst its institutions.
         </para>
       </description>
     </job>
@@ -318,7 +314,7 @@ This is a resume of Bart Trojanowski
         <to> <date> <month>April</month> <year>1996</year> </date> </to>
       </period>
       <description>
-        <para>while on the project entitled "Newspapers for the blind" assisted the visually challenged in setting up VBI equipment in order to receive electronic papers; participated in a team environment to develop a WWW server, for Smart Communities, that mimicked Yellow Pages but in electronic form.
+        <para>while on the project entitled "Newspapers for the blind" assisted the visually challenged in setting up VBI equipment in order to receive an electronic news feed; participated in a team environment to develop a WWW server, for Smart Communities, that mimicked Yellow Pages but in electronic form.
         </para>
       </description>
     </job>
@@ -331,7 +327,7 @@ This is a resume of Bart Trojanowski
         <to> <date> <month>August</month> <year>1994</year> </date> </to>
       </period>
       <description>
-        <para>high school summer Co-op; placed, at personal request; briefly introduced to networking on IBM/9000, the Virtual Machine environment and UNIX architectures; tasks involved developing database entry sheets for personnel, payroll and security data on the VM; also developed helper applications using the C programming language under UNIX;
+        <para>briefly introduced to networking on IBM/9000, the Virtual Machine environment and UNIX architectures; tasks involved developing database entry sheets for personnel, payroll and security data on the VM; also developed helper applications using C on UNIX.
         </para>
       </description>
     </job>
@@ -353,8 +349,7 @@ This is a resume of Bart Trojanowski
         <annotation>
           <para>Five year Co-op program.  Degree awarded with <emphasis>Highest Honours</emphasis> standing. 
           </para>
-          <para>Studies concentrated on: Computer Networking and Cryptography
-            , Operating Systems &amp; Real-time Systems, Object Oriented Programming, Artificial Intelligence, Computer Graphics &amp; Simulations, and Database Development.
+          <para>Studies concentrated on: Computer Networking and Cryptography, Operating Systems &amp; Real-time Systems, Object Oriented Programming, Artificial Intelligence, Computer Graphics &amp; Simulations, and Database Development.
           </para>
         </annotation>
       </degree>
