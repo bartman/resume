@@ -130,6 +130,18 @@ This is a resume of Bart Trojanowski
         <skill>Familiar with countless desktop publishing, productivity and scientific software for various platforms.</skill>
       </skillset>
       <skillset>
+        <title>Kernel/Embedded</title>
+        <skill>Extensive knowledge of Linux kernel internals; worked on various optimization projects for the Linux kernel.</skill>
+        <skill>Exposure to various hardware bus architectures (PCI, CompactPCI, PC104, etc) and processors (Intel x86, AMD Opteron, ARM9/Xscale/ARM11, ARC, MIPS, PPC, TI DSP, etc).</skill>
+        <skill>Good understanding of Linux boot sequence; designed custom Linux distribution for use in embedded applications.</skill>
+        <skill>Extensive experience working with x86 BIOS; worked on preserving BIOS real-mode functionality for Linux.</skill>
+        <skill>Enthusiastically learning as much as one can about the Android cell platform.</skill>
+        <skill>Expert in debugging, modifying, porting, and optimization of Linux kernel sources.</skill>
+        <skill>Experienced in big- and small-embedded device development under Linux; also worked on pSOS, vxWorks, and built-in-house operating systems.</skill>
+        <skill>Design and implementation knowledge for real-time systems.</skill>
+        <skill>Understanding of Solaris and NT driver development.</skill>
+      </skillset>
+      <skillset>
         <title>Networking</title>
         <skill>Berkeley sockets (UNIX networking)</skill>
         <skill>Linux network stack internals</skill>
@@ -142,18 +154,6 @@ This is a resume of Bart Trojanowski
         <skill>Development of IPSec and ISAKMP/IKE protocols</skill>
         <skill>SSH, SSL, NFS</skill>
         <skill>DVB and MPEG standards</skill>
-      </skillset>
-      <skillset>
-        <title>Kernel/Embedded</title>
-        <skill>Extensive knowledge of Linux kernel internals; worked on various optimization projects for the Linux kernel.</skill>
-        <skill>Exposure to various hardware bus architectures (PCI, CompactPCI, PC104, etc) and processors (Intel x86, AMD Opteron, ARM9/Xscale/ARM11, ARC, MIPS, PPC, TI DSP, etc).</skill>
-        <skill>Good understanding of Linux boot sequence; designed custom Linux distribution for use in embedded applications.</skill>
-        <skill>Extensive experience working with x86 BIOS; worked on preserving BIOS real-mode functionality for Linux.</skill>
-        <skill>Enthusiastically learning as much as one can about the Android cell platform.</skill>
-        <skill>Expert in debugging, modifying, porting, and optimization of Linux kernel sources.</skill>
-        <skill>Experienced in big- and small-embedded device development under Linux; also worked on pSOS, vxWorks, and built-in-house operating systems.</skill>
-        <skill>Design and implementation knowledge for real-time systems.</skill>
-        <skill>Understanding of Solaris and NT driver development.</skill>
       </skillset>
     </skillarea>
 
