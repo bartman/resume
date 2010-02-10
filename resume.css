@@ -62,4 +62,6 @@ table.referees { width: 60%; margin-top: 0cm; margin-bottom: 0cm;}
 span.skillSetTitle { font-weight: bold; }
 span.skills { display: list-item; }
 
+p.job { display: list-item; }
+
 </xsl:stylesheet>
