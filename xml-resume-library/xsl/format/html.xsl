@@ -476,14 +476,17 @@ $Id: html.xsl,v 1.17 2002/11/10 20:48:58 brandondoyle Exp $
         <xsl:text>, </xsl:text>
         <xsl:apply-templates select="r:date|r:period"/>
       </xsl:if>
+      <xsl:if test="r:institution">
+        <xsl:text>, </xsl:text>
+        <xsl:apply-templates select="r:institution"/>
+      </xsl:if>
+      <xsl:if test="r:location">
+        <xsl:text>, </xsl:text>
+        <xsl:apply-templates select="r:location"/>
+      </xsl:if>
       <xsl:if test="r:annotation">
         <xsl:text>. </xsl:text>
         <xsl:apply-templates select="r:annotation"/>
-      </xsl:if>
-      <xsl:if test="r:institution">
-        <br/>
-        <xsl:apply-templates select="r:institution"/>
-        <xsl:apply-templates select="r:location"/>
       </xsl:if>
       <xsl:apply-templates select="r:gpa"/>
       <xsl:apply-templates select="r:subjects"/>
