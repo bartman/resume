@@ -48,7 +48,7 @@ $Id: us.xsl,v 1.4 2002/11/04 10:36:39 brandondoyle Exp $
   <xsl:param name="interests.word">Interests</xsl:param>
   <xsl:param name="security-clearances.word">Security Clearances</xsl:param>
   <xsl:param name="awards.word">Awards</xsl:param>
-  <xsl:param name="miscellany.word">Miscellany</xsl:param>
+  <xsl:param name="miscellany.word">Miscellaneous</xsl:param>
   <!-- Word to use for "in", as in "bachelor degree *in* political science" -->
   <xsl:param name="in.word">in</xsl:param>
   <!-- Word to use for "and", as in "Minors in political science, English, *and*
