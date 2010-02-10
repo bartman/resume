@@ -120,19 +120,19 @@ This is a resume of Bart Trojanowski
         <skill>Very strong problem solving skills.</skill>
         <skill>Proficient in multi-threaded and real-time application design and development.</skill>
         <skill>Designed various cross-platform drivers, libraries, and applications.</skill>
-        <skill>Performed ports of several windows applications and drivers to Linux.</skill>
-        <skill>Worked with certificates, and PKI systems; and with card readers at a APDU and framework levels.</skill>
+        <skill>Performed ports of several Windows applications and drivers to Linux.</skill>
+        <skill>Worked with certificates, and PKI systems; and with card readers at APDU and framework levels.</skill>
         <skill>Theoretical and applied understanding of vast network systems, protocols and concepts.</skill>
-        <skill>Performed development, testing, benchmarking, profiling , and debugging many networking and multi-threaded/multi-processor application using Linux tools.</skill>
+        <skill>Performed development, testing, benchmarking, profiling, and debugging many networking and multi-threaded/multi-processor applications using Linux tools.</skill>
         <skill>Exposure in debugging and optimizing gcc and gdb, of the GNU tool chain, for a custom built ARC processor.</skill>
-        <skill>Familiar with X, both at an application level side as well as with server and driver code.</skill>
+        <skill>Familiar with X, both at an application development level, as well as with server and driver code.</skill>
         <skill>Working knowledge of databases like pgsql and mysql.</skill>
-        <skill>Familiarity with countless desktop publishing, productivity and scientific software for various platforms.</skill>
+        <skill>Familiar with countless desktop publishing, productivity and scientific software for various platforms.</skill>
       </skillset>
       <skillset>
         <title>Networking</title>
         <skill>Berkeley sockets (UNIX networking)</skill>
-        <skill>Linux network statck internals</skill>
+        <skill>Linux network stack internals</skill>
         <skill>Network security (firewalls, deep packet inspection, proxy servers, etc.)</skill>
         <skill>TCP, UDP, ICMP, Multicast internals</skill>
         <skill>Ethernet, VLAN/QinQ, IPv4, and IPv6 connectivity</skill>
