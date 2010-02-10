@@ -159,14 +159,14 @@ This is a resume of Bart Trojanowski
 
   <history>
     <job>
-      <jobtitle>Consultant Contract Developer</jobtitle>
+      <jobtitle>Consultant / Contract Developer</jobtitle>
       <employer>Jukie Networks Inc.</employer>
       <period>
         <from> <date> <month>June</month> <year>2004</year> </date> </from>
         <to> <present/> </to>
       </period>
       <description>
-        <para>runs a successful consulting company specialized in Linux software design and development; has been involved in designing and the implementation of a distributed file system, development and porting of several PCI device drivers, and continued development of a Linux IPSec stack; has helped his clients draft the architecture for embedded platforms, design cross-platform driver and system software, and debug various kernel and real-time issues; has been involved with system bootstrap and x86 BIOS, the X.org system, Linux network internals, deep packet inspection, PPPoE/PPPoA server software, and security software; has contributed patches to open source software, and given lectures on the Linux kernel and Git revision control tool; as part of ongoing efforts to keep current, is passionately following various open source projects such as the Google Android.
+        <para>runs a successful consulting company specialized in Linux software design and development; has been involved in the design and implementation of a distributed file system, development and porting of several PCI device drivers, and continued development of a Linux IPSec stack; has helped clients draft the architecture for embedded platforms, designed cross-platform driver and system software, and debuged various kernel and real-time issues; has been involved with system bootstrap and x86 BIOS, the X.org system, Linux network internals, deep packet inspection, PPPoE/PPPoA server software, and security software; has contributed patches to open source software, and given lectures on the Linux kernel and Git revision control tool; as part of ongoing efforts to keep current, is passionately following various open source projects such as the Google Android.
         </para>
       </description>
       <projects>
@@ -195,18 +195,18 @@ This is a resume of Bart Trojanowski
           crash analysis, researching workarounds, testing.
         </project>
         <project>
-          <emphasis>Symbio Technologies, New York</emphasis>
-          design and implementation of small embedded system to act as a preboot environment, which obtained credentials from the user before unlocking the hard disk and booting the main OS;
+          <emphasis>Symbio Technologies, New York</emphasis>;
+          design and implementation of a small embedded system to act as a preboot environment, which obtained credentials from the user before unlocking the hard disk and booting the main OS;
           product was based on Linux using an ATA device with TRUST extensions;
-          I owned the embedded system including custom drivers to talk to the SATA connected device.
+          responsible for embedded system including custom drivers to talk to the SATA connected device.
         </project>
         <project>
-          <emphasis>Symbio Technologies, New York</emphasis>
+          <emphasis>Symbio Technologies, New York</emphasis>;
           AMD Geode based single board computer;
-          I contributed by debugging and fixing bugs in the X server and drivers.
+          contributed by debugging and fixing bugs in the X server and drivers.
         </project>
         <project>
-          <emphasis>Xelerance Corp, Ottawa</emphasis>
+          <emphasis>Xelerance Corp, Ottawa</emphasis>;
           Linux driver for crypto hardware acceleration board from HiFn;
           extending functionality of OpenSwan IP/Sec stack on Linux;
           debugging NetBSD support for HiFn Open Crypto Framework (OCF) drivers;
@@ -236,7 +236,7 @@ This is a resume of Bart Trojanowski
         <to> <date> <month>March</month> <year>2004</year> </date> </to>
       </period>
       <description>
-        <para>designed, implemented, and responsible for a set of drivers handling host to radio communication and configuration, via PCI bus.  the target platforms of said drivers are arm-linux and x86-linux.
+        <para>designed, implemented, and responsible for a set of drivers handling host to radio communication and configuration, via PCI bus; the target platforms of said drivers were arm-linux and x86-linux.
         </para>
       </description>
     </job>
@@ -249,7 +249,7 @@ This is a resume of Bart Trojanowski
         <to> <date> <month>August</month> <year>2001</year> </date> </to>
       </period>
       <description>
-        <para>designed, implemented, and responsible for maintenance of a cross platform (Linux/FreeBSD) driver and debug tools for a PCI device; helped in porting it to WinNT and Solaris; designed and implemented an automated testing environment for the PCI device; involved in porting a kernel IPSec implementation to use a hardware accelerator; written various kernel modules to exercise the Chrysalis-ITS hardware; also, worked on various internal tools used by the firmware developers; provided Linux tutelage to other project developers; as a background task maintained a project CVS/NFS server for various developers. 
+        <para>designed, implemented, and responsible for maintenance of a cross platform (Linux/FreeBSD) driver and debug tools for a PCI device; helped in porting it to WinNT and Solaris; designed and implemented an automated testing environment for the PCI device; involved in porting a kernel IPSec implementation to use a hardware accelerator; wrote various kernel modules to exercise the Chrysalis-ITS hardware; also, worked on various internal tools used by the firmware developers; provided Linux tutelage to other project developers; as a background task maintained a project CVS/NFS server for various developers. 
         </para>
       </description>
     </job>
