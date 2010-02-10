@@ -26,7 +26,8 @@ for ref in $@ ; do
         echo >&2 "### Setting up work space"
         mkdir -p $worktree
         echo >&2 "### Checking out"
-        git checkout -f
+        git checkout -f ${ref##*/}
+        git reset --hard $ref
         echo >&2 "### Building"
         make -C $worktree clean html
         if [ "$ref" = "refs/heads/master" ] ; then
