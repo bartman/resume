@@ -133,7 +133,7 @@ This is a resume of Bart Trojanowski
         <title>Kernel/Embedded</title>
         <skill>Extensive knowledge of Linux kernel internals; worked on various optimization projects for the Linux kernel.</skill>
         <skill>Exposure to various hardware bus architectures (PCI, CompactPCI, PC104, etc) and processors (Intel x86, AMD Opteron, ARM9/Xscale/ARM11, ARC, MIPS, PPC, TI DSP, etc).</skill>
-        <skill>Good understanding of Linux boot sequence; designed custom Linux distribution for use in embedded applications.</skill>
+        <skill>Good understanding of Linux boot sequence; worked with bootloders like u-boot, grub, lilo, etc; designed custom Linux distribution using busybox for use in embedded applications.</skill>
         <skill>Extensive experience working with x86 BIOS; worked on preserving BIOS real-mode functionality for Linux.</skill>
         <skill>Enthusiastically learning as much as one can about the Android cell platform.</skill>
         <skill>Expert in debugging, modifying, porting, and optimization of Linux kernel sources.</skill>
