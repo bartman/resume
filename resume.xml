@@ -99,7 +99,7 @@ This is a resume of Bart Trojanowski
     <contact>
       <phone>613/282-7102</phone>
       <email>bart@jukie.net</email>
-      <web><link>http://www.jukie.net/</link></web>
+      <web><link href="http://www.jukie.net/">http://www.jukie.net/</link></web>
     </contact>
   </header>
 
@@ -363,27 +363,27 @@ This is a resume of Bart Trojanowski
     </para>
     <para>
       Given serveral well received lectures on Git;
-      see: <link>http://www.jukie.net/~bart/slides/git-reflections/</link>
+      see: <link href="http://www.jukie.net/~bart/slides/git-reflections/">http://www.jukie.net/~bart/slides/git-reflections/</link>
     </para>
     <para>
       Devoted participant in the Ottawa Linux Users Group;
       presented several topics;
-      see: <link>http://www.jukie.net/~bart/slides/</link>
+      see: <link href="http://www.jukie.net/~bart/slides/">http://www.jukie.net/~bart/slides/</link>
     </para>
     <para>
       Written various HOWTOs on Linux setup tasks;
       recent contributions archived in a blog;
-      see: <link>http://www.jukie.net/~bart/blog/</link>
+      see: <link href="http://www.jukie.net/~bart/blog/">http://www.jukie.net/~bart/blog/</link>
     </para>
 
     <para>
       <emphasis>Open Source Projects</emphasis>
     </para>
-    <para>Maintains window manager wmii-lua; see <link>http://github.com/bartman/wmii-lua</link></para>
-    <para>Contributed to Debian port to AMD64 architecture (AMD Opteron chip); see <link>http://www.jukie.net/~bart/debian/amd64/</link></para>
-    <para>Involved in redesign efforts of KLIPS (kernel part of the IPSec implementation for Linux); my involvement lay in the development of a kernel-space crypto library; see: <link>http://www.jukie.net/~bart/linux-ipsec</link></para>
-    <para>Developed an elf signing utility which uses the GnuPG engine for digitally signing elf executables; see: <link>http://elfsign.sourceforge.net</link></para>
-    <para>... and much, much more; see <link>https://www.ohloh.net/accounts/bartman</link> and <link>http://github.com/bartman</link></para>
+    <para>Maintains window manager wmii-lua; see <link href="http://github.com/bartman/wmii-lua">http://github.com/bartman/wmii-lua</link></para>
+    <para>Contributed to Debian port to AMD64 architecture (AMD Opteron chip); see <link href="http://www.jukie.net/~bart/debian/amd64/">http://www.jukie.net/~bart/debian/amd64/</link></para>
+    <para>Involved in redesign efforts of KLIPS (kernel part of the IPSec implementation for Linux); my involvement lay in the development of a kernel-space crypto library; see: <link href="http://www.jukie.net/~bart/linux-ipsec">http://www.jukie.net/~bart/linux-ipsec</link></para>
+    <para>Developed an elf signing utility which uses the GnuPG engine for digitally signing elf executables; see: <link href="http://elfsign.sourceforge.net">http://elfsign.sourceforge.net</link></para>
+    <para>... and much, much more; see <link href="https://www.ohloh.net/accounts/bartman">https://www.ohloh.net/accounts/bartman</link> and <link href="http://github.com/bartman">http://github.com/bartman</link></para>
   </misc>
 
 </resume>
